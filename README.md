@@ -1,4 +1,6 @@
-### I am a postdoctoral appointee at the Donostia International Physics Center. My research revolves about a broad range of topics in Cosmology and Astrophysics, including the galaxy-halo connection, the cross-correlation of large scale structure and cosmic microwave background, photometric redshifts, and active galactic nuclei characterization.
+# About me
+
+I am a postdoctoral appointee at the Donostia International Physics Center. My research revolves about a broad range of topics in Cosmology and Astrophysics, including the galaxy-halo connection, the cross-correlation of large scale structure and cosmic microwave background, photometric redshifts, and active galactic nuclei characterization.
 
 <!--
 **jchavesmontero/jchavesmontero** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
