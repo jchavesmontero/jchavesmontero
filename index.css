@@ -546,19 +546,19 @@ body {
   background: var(--text-color);
 }
 :root {
-  --bg-color: rgb(10, 10, 10);
+  --bg-color: rgb(50, 50, 50);
   --text-color: #fff;
   --blog-gray-color: rgb(180, 180, 180);
   --background-image: linear-gradient(
       90deg,
-      rgba(10, 10, 10, 0.3),
-      rgb(10, 10, 10, 1)
+      rgba(50, 50, 50, 0.3),
+      rgb(50, 50, 50, 1)
     ),
     url("https://images.unsplash.com/photo-1553748024-d1b27fb3f960?w=1500&q=80");
   --background-background: linear-gradient(
       0deg,
-      rgba(10, 10, 10, 1),
-      rgba(10, 10, 10, 0.6)
+      rgba(50, 50, 50, 1),
+      rgba(50, 50, 50, 0.6)
     ),
     url("https://images.unsplash.com/photo-1553748024-d1b27fb3f960?w=1500&q=80") center center fixed;
   --height: 50vh;
