@@ -13,6 +13,11 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+a {
+  color: yellow;
+  text-decoration: none;
+}
+
 #loading {
   width: 100vw;
   height: 100vh;
