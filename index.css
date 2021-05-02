@@ -13,6 +13,11 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+a {
+  color: yellow;
+  text-decoration: none;
+}
+
 #loading {
   width: 100vw;
   height: 100vh;
@@ -608,7 +613,7 @@ body {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 22px;
+  font-size: 26px;
 }
 
 /* Change the color of links on hover */
