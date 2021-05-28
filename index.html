@@ -1,4 +1,5 @@
-<!DOCTYPE html><html lang="en"><head>
+<!DOCTYPE html><html lang="en">
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -8,32 +9,39 @@
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/magic-grid/dist/magic-grid.min.js"></script>
     <link rel="stylesheet" href="index.css">
-  <link rel="icon" href="https://avatars.githubusercontent.com/u/35238605?v=4" type="image/png"></head>
+    <link rel="icon" href="https://avatars.githubusercontent.com/u/35238605?v=4" type="image/png">
+  </head>
 
   <body>
     <div id="loading">
       <div id="spinner"></div>
     </div>
     <div id="profile">
-      <div id="profile_img" style="background: url(https://avatars.githubusercontent.com/u/35238605?v=4) center;"></div>
-      <div id="username"><span style="display:block;">Jon&aacute;s Chaves-Montero</span><a href="https://github.com/jchavesmontero">@jchavesmontero</a></div>
-      <div id="userbio"><span style="display:block;font-size:80%">I am a postdoctoral researcher in <br> Astrophysics and Cosmology</div>
+      <div id="profile_img" style="background: url(https://avatars.githubusercontent.com/u/35238605?v=4) center;">
+      </div>
+      <div id="username">
+        <span style="display:block;">Jon&aacute;s Chaves-Montero</span><a href="https://github.com/jchavesmontero">@jchavesmontero</a>
+      </div>
+      <div id="userbio">
+        <span style="display:block;font-size:80%">I am a postdoctoral researcher in <br> Astrophysics and Cosmology
+      </div>
       <div id="about">
-                <span style="display:none;"><i class="fas fa-users"></i> &nbsp; null</span>
-                <span style="display:none;"><i class="fas fa-envelope"></i> &nbsp; null</span>
-                <span style="display:block;"><i class="fas fa-map-marker-alt"></i> &nbsp; <a href="https://www.google.com/maps/place/Donostia+International+Physics+Center+(DIPC)/@43.3059659,-2.013028,17z/data=!3m1!4b1!4m5!3m4!1s0xd51b073975de3fb:0x95b35e980cccf06a!8m2!3d43.305962!4d-2.010834">Donostia International <br> Physics Center</a></span>
-                <span style="display:none;"><i class="fas fa-link"></i> &nbsp; <a href="https://jchavesmontero.github.io/jchavesmontero/">Website</a></span>
-                <span style="display:block;"><i class="fas fa-pen-nib"></i> &nbsp; <a href="https://scholar.google.es/citations?user=cZmCXoEAAAAJ&hl=en">Google Scholar</a></span>
-                <span style="display:block;"><i class="fab fa-connectdevelop"></i> &nbsp; <a href="https://orcid.org/0000-0002-9553-4261">Orcid</a></span>
-                <span style="display:block;"><i class="fas fas fa-book"></i> &nbsp; <a href="https://ui.adsabs.harvard.edu/search/q=%20author%3A%22chaves-montero%2C%20j.%22&sort=date%20desc%2C%20bibcode%20desc&p_=0">Publications</a></span>
-                <span style="display:block;"><i class="far fa-envelope"></i> &nbsp; <a href="mailto:jonas.chaves@dipc.org">Email</a></span>
-                </div>
+        <span style="display:none;"><i class="fas fa-users"></i> &nbsp; null</span>
+        <span style="display:none;"><i class="fas fa-envelope"></i> &nbsp; null</span>
+        <span style="display:block;"><i class="fas fa-map-marker-alt"></i> &nbsp; <a href="https://www.google.com/maps/place/Donostia+International+Physics+Center+(DIPC)/@43.3059659,-2.013028,17z/data=!3m1!4b1!4m5!3m4!1s0xd51b073975de3fb:0x95b35e980cccf06a!8m2!3d43.305962!4d-2.010834">Donostia International <br> Physics Center</a></span>
+        <span style="display:none;"><i class="fas fa-link"></i> &nbsp; <a href="https://jchavesmontero.github.io/jchavesmontero/">Website</a></span>
+        <span style="display:block;"><i class="fas fa-pen-nib"></i> &nbsp; <a href="https://scholar.google.es/citations?user=cZmCXoEAAAAJ&hl=en">Google Scholar</a></span>
+        <span style="display:block;"><i class="fab fa-connectdevelop"></i> &nbsp; <a href="https://orcid.org/0000-0002-9553-4261">Orcid</a></span>
+        <span style="display:block;"><i class="fas fas fa-book"></i> &nbsp; <a href="https://ui.adsabs.harvard.edu/search/q=%20author%3A%22chaves-montero%2C%20j.%22&sort=date%20desc%2C%20bibcode%20desc&p_=0">Publications</a></span>
+        <span style="display:block;"><i class="far fa-envelope"></i> &nbsp; <a href="mailto:jonas.chaves@dipc.org">Email</a></span>
+      </div>
     </div>
+
+
     <div id="display">
 
-    	<!-- <div id="work"> -->
-	        <div class="navbar">
-	          <a href="https://jchavesmontero.github.io/jchavesmontero">Home</a>
+      <div class="navbar">
+        <a href="https://jchavesmontero.github.io/jchavesmontero">Home</a>
 			  <div class="dropdown">
 			    <button class="dropbtn">Projects
 			      <i class="fa fa-caret-down"></i>
@@ -43,43 +51,44 @@
 			      <a href="https://jchavesmontero.github.io/jchavesmontero/projects">Angular redshift fluctuations</a>
 			      <a href="https://jchavesmontero.github.io/jchavesmontero/projects">Active galactic nuclei</a>
 			    </div>
-			  </div>
-	          <a href="https://jchavesmontero.github.io/jchavesmontero/visualization">Media</a>
-	          <a href="https://jchavesmontero.github.io/jchavesmontero/about">About me</a>
-	        </div>
-	    <!-- </div> -->
+  			</div>
+        <a href="https://jchavesmontero.github.io/jchavesmontero/visualization">Media</a>
+        <a href="https://jchavesmontero.github.io/jchavesmontero/about">About me</a>
+  	  </div>
 
       <div id="work">
+
         <h1 style="font-family:verdana">About me</h1>
-        <p style="font-family:verdana;font-size:200%"> I am a postdoctoral appointee at the 
+        <p style="font-family:verdana;font-size:200%"> 
+          I am a postdoctoral appointee at the 
         	<a href="http://dipc.ehu.es">Donostia International Physics Center (DIPC)</a>. 
-            My research revolves about a broad range of topics in Cosmology and Astrophysics, 
-            including the galaxy-halo connection, the cross-correlation of large scale structure 
-            and cosmic microwave background, estimation of photometric redshifts, and characterization
-	    of active galactic nuclei.</p>    
-        <h1 style="font-family:verdana">Lines of work</h1>
-         <ol>
-	  <li style="font-family:verdana;font-size:200%"> 
-		  <a href="https://jchavesmontero.github.io/jchavesmontero/projects">
-			  Missing baryons</a>
-	  </li>
-	  <li style="font-family:verdana;font-size:200%"> 
-		  <a href="https://jchavesmontero.github.io/jchavesmontero/projects">
-			  Forward-modelling galaxy colors</a>
-	  </li>
+          My research revolves about a broad range of topics in Cosmology and Astrophysics, 
+          including the galaxy-halo connection, the cross-correlation of large scale structure 
+          and cosmic microwave background, estimation of photometric redshifts, 
+          and characterization of active galactic nuclei.</p>
+
+        <h1 style="font-family:verdana">
+          <a href="https://jchavesmontero.github.io/jchavesmontero/projects">
+            Lines of work</a>
+          </h1>
+        <ol>
           <li style="font-family:verdana;font-size:200%"> 
-		  <a href="https://jchavesmontero.github.io/jchavesmontero/projects">
-			   Super-massive black hole masses</a>
-	  </li>
-	  <li>WIP</li>
-	</ol>
-<!-- My scientific
-interests cover a broad range of topics in observational cosmology and galaxy formation
-physics. Specifically, my work focuses on harnessing the full power of galaxy surveys by
-characterizing the impact of both theoretical shortcomings and observational systematics upon
-cosmological observables. My current lines of work are forward-modeling the galaxy-halo
-connection, cross-correlating large-scale structure (LSS) and cosmic microwave background
-(CMB) observations, and improving the precision of photometric redshift estimation. -->  
+		        <a href="https://jchavesmontero.github.io/jchavesmontero/projects/arf">
+			      Missing baryons</a>
+	        </li>
+	        <li style="font-family:verdana;font-size:200%"> 
+		        <a href="https://jchavesmontero.github.io/jchavesmontero/projects/sbu">
+			      Forward-modelling galaxy colors</a>
+	        </li>
+          <li style="font-family:verdana;font-size:200%"> 
+		        <a href="https://jchavesmontero.github.io/jchavesmontero/projects/agn">
+			      Super-massive black hole masses</a>
+	        </li>
+          <li style="font-family:verdana;font-size:200%"> 
+            <a href="https://jchavesmontero.github.io/jchavesmontero/projects/ab">
+            Assembly bias</a>
+          </li>
+	      </ol>
             
       <div id="blog_section">
         <h1>Blog.</h1>
@@ -89,6 +98,7 @@ connection, cross-correlating large-scale structure (LSS) and cosmic microwave b
         <center><p style="font-family:verdana;font-size:120%"> Created by Jon&aacute;s Chaves-Montero </p></center>
       </div>
     </div>
+
     <script type="text/javascript">
       setTimeout(function() {
         document.getElementById("loading").classList.add("animated");
@@ -152,6 +162,6 @@ connection, cross-correlating large-scale structure (LSS) and cosmic microwave b
       });
     </script>
   
-
-</body></html>
+</body>
+</html>
 
