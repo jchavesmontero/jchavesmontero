@@ -10,13 +10,7 @@
     <script src="https://unpkg.com/magic-grid/dist/magic-grid.min.js"></script>
     <link rel="stylesheet" href="index.css">
     <link rel="icon" href="https://avatars.githubusercontent.com/u/35238605?v=4" type="image/png">
-    <!-- <script src="https://code.jquery.com/jquery-1.10.2.js"></script> -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-    <script> 
-       $(function(){
-        $("#nav-placeholder").load("nav.html");
-       });  
-    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   </head>
 
   <body>
@@ -42,9 +36,14 @@
     </div>
 
     <div id="display">
+      <div id="nav-placeholder">
+      </div>      
+      <script>
+          $.get("nav.html", function(data){
+              $("#nav-placeholder").replaceWith(data);
+          });
+      </script> 
 
-      <!--Navigation bar-->
-      <div id="nav-placeholder"></div>
       <!-- <div w3-include-html="nav.html"></div> -->
 
       <!-- <div class="navbar">
@@ -149,9 +148,9 @@
         $("#nav-placeholder").load("nav.html");
       });
     </script> -->
-    <script>
+    <!-- <script>
       w3.includeHTML();
-    </script>
+    </script> -->    
 
     <script>
       const magicProjectsGrid = new MagicGrid({
