@@ -24,13 +24,12 @@
         <p style="font-family:verdana;font-size:150%"> 
           In 2018, we made the following movie at the Argonne National Laboratory for the acceptance of <a href="https://www.jpl.nasa.gov/missions/spherex">SPHEREx</a> as a MIDEX NASA project (and it got accepted!). In this movie, we fly through the distribution of galaxies that SPHEREx will observe. As the movie advances, we get increasingly farther away from Earth, observing galaxies that populated the distant universe. The inset shows the path of the observer through the simulation lightcone. This movie is based on the trillion-particle Outer Rim simulation carried out with <a href="https://cpac.hep.anl.gov/projects/hacc/#:~:text=HACC%20(Hardware%2FHybrid%20Accelerated%20Cosmology,Award%20Finalist%202012%2C%202013)">HACC</a>.
         </p>
-          <div>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/I0D7_0Kus8g?start=13" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
-          </div>
-            
-        <div id="footer">
-          <center><p style="font-family:verdana;font-size:120%"> Created by Jon&aacute;s Chaves-Montero </p></center>
+        <div>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/I0D7_0Kus8g?start=13" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
         </div>
+            
+        <div id="foot-placeholder"></div>
+        
       </div>
     </div>
 
@@ -38,11 +37,11 @@
       $.get("../nav.html", function(data){
           $("#nav-placeholder").replaceWith(data);
       });
-    </script> 
-
-    <script>
       $.get("../lpanel.html", function(data){
           $("#lpanel-placeholder").replaceWith(data);
+      });
+      $.get("../foot.html", function(data){
+          $("#foot-placeholder").replaceWith(data);
       });
     </script> 
 
