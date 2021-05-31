@@ -37,35 +37,9 @@
 
     <div id="display">
       <div id="nav-placeholder">
-      </div>      
-      <script>
-          $.get("nav.html", function(data){
-              $("#nav-placeholder").replaceWith(data);
-          });
-      </script> 
-
-      <!-- <div w3-include-html="nav.html"></div> -->
-
-      <!-- <div class="navbar">
-        <a href="https://jchavesmontero.github.io/jchavesmontero">Home</a>
-			  <div class="dropdown">
-			    <button class="dropbtn">Projects
-			      <i class="fa fa-caret-down"></i>
-			    </button>
-			    <div class="dropdown-content">
-			      <a href="https://jchavesmontero.github.io/jchavesmontero/projects/sbu">Modelling galaxy colors</a>
-			      <a href="https://jchavesmontero.github.io/jchavesmontero/projects/arf">Missing baryons</a>
-			      <a href="https://jchavesmontero.github.io/jchavesmontero/projects/agn">Quasars</a>
-            <a href="https://jchavesmontero.github.io/jchavesmontero/projects/ab">Assembly bias</a>
-			    </div>
-  			</div>
-        <a href="https://jchavesmontero.github.io/jchavesmontero/visualization">Media</a>
-        <a href="https://jchavesmontero.github.io/jchavesmontero/about">About me</a>
-        <a href="https://jchavesmontero.github.io/jchavesmontero/cv">CV</a>
-  	  </div> -->
+      </div>    
 
       <div id="work">
-
         <h1 style="font-family:verdana">About me</h1>
 
           <p style="font-family:verdana;font-size:200%"> 
@@ -143,14 +117,11 @@
       }, 1500);
     </script>
 
-    <!-- <script>
-      $(function(){
-        $("#nav-placeholder").load("nav.html");
-      });
-    </script> -->
-    <!-- <script>
-      w3.includeHTML();
-    </script> -->    
+    <script>
+        $.get("nav.html", function(data){
+            $("#nav-placeholder").replaceWith(data);
+        });
+    </script> 
 
     <script>
       const magicProjectsGrid = new MagicGrid({
