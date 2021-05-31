@@ -14,10 +14,6 @@
   </head>
 
   <body>
-    <!-- <div id="loading">
-      <div id="spinner"></div>
-    </div> -->
-
     <div id="lpanel-placeholder"></div>
 
     <div id="display">
@@ -32,18 +28,6 @@
       </div>
     </div>
 
-    <!-- <script type="text/javascript">
-      setTimeout(function() {
-        document.getElementById("loading").classList.add("animated");
-        document.getElementById("loading").classList.add("fadeOut");
-        setTimeout(function() {
-          document.getElementById("loading").classList.remove("animated");
-          document.getElementById("loading").classList.remove("fadeOut");
-          document.getElementById("loading").style.display = "none";
-        }, 800);
-      }, 1500);
-    </script>
- -->
     <script>
       $.get("../nav.html", function(data){
           $("#nav-placeholder").replaceWith(data);
