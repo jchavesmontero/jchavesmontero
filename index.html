@@ -10,6 +10,13 @@
     <script src="https://unpkg.com/magic-grid/dist/magic-grid.min.js"></script>
     <link rel="stylesheet" href="index.css">
     <link rel="icon" href="https://avatars.githubusercontent.com/u/35238605?v=4" type="image/png">
+    <!-- <script src="https://code.jquery.com/jquery-1.10.2.js"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script> 
+       $(function(){
+        $("#nav-placeholder").load("nav.html");
+       });  
+    </script>
   </head>
 
   <body>
@@ -20,41 +27,43 @@
       <div id="profile_img" style="background: url(https://avatars.githubusercontent.com/u/35238605?v=4) center;">
       </div>
       <div id="username">
-        <span style="display:block;">Jon&aacute;s Chaves-Montero</span><a href="https://github.com/jchavesmontero">@jchavesmontero</a>
+        <span style="display:block;font-family:verdana;font-size:240%">Jon&aacute;s Chaves-Montero</span><a href="https://github.com/jchavesmontero">@jchavesmontero</a>
       </div>
       <div id="userbio">
-        <span style="display:block;font-size:80%">I am a postdoctoral researcher in <br> Astrophysics and Cosmology
+        <span style="display:block;font-family:verdana;font-size:120%">I am a postdoctoral researcher in <br> Astrophysics and Cosmology
       </div>
       <div id="about">
-        <span style="display:none;"><i class="fas fa-users"></i> &nbsp; null</span>
-        <span style="display:none;"><i class="fas fa-envelope"></i> &nbsp; null</span>
-        <span style="display:block;"><i class="fas fa-map-marker-alt"></i> &nbsp; <a href="https://www.google.com/maps/place/Donostia+International+Physics+Center+(DIPC)/@43.3059659,-2.013028,17z/data=!3m1!4b1!4m5!3m4!1s0xd51b073975de3fb:0x95b35e980cccf06a!8m2!3d43.305962!4d-2.010834">Donostia International <br> Physics Center</a></span>
-        <span style="display:none;"><i class="fas fa-link"></i> &nbsp; <a href="https://jchavesmontero.github.io/jchavesmontero/">Website</a></span>
-        <span style="display:block;"><i class="fas fa-pen-nib"></i> &nbsp; <a href="https://scholar.google.es/citations?user=cZmCXoEAAAAJ&hl=en">Google Scholar</a></span>
-        <span style="display:block;"><i class="fab fa-connectdevelop"></i> &nbsp; <a href="https://orcid.org/0000-0002-9553-4261">Orcid</a></span>
-        <span style="display:block;"><i class="fas fas fa-book"></i> &nbsp; <a href="https://ui.adsabs.harvard.edu/search/q=%20author%3A%22chaves-montero%2C%20j.%22&sort=date%20desc%2C%20bibcode%20desc&p_=0">Publications</a></span>
-        <span style="display:block;"><i class="far fa-envelope"></i> &nbsp; <a href="mailto:jonas.chaves@dipc.org">Email</a></span>
+        <span style="display:block;font-family:verdana;font-size:140%"><i class="fas fa-map-marker-alt"></i> &nbsp; <a href="https://www.google.com/maps/place/Donostia+International+Physics+Center+(DIPC)/@43.3059659,-2.013028,17z/data=!3m1!4b1!4m5!3m4!1s0xd51b073975de3fb:0x95b35e980cccf06a!8m2!3d43.305962!4d-2.010834">Donostia International <br> Physics Center</a></span>
+        <span style="display:block;font-family:verdana;font-size:140%"><i class="fas fa-pen-nib"></i> &nbsp; <a href="https://scholar.google.es/citations?user=cZmCXoEAAAAJ&hl=en">Google Scholar</a></span>
+        <span style="display:block;font-family:verdana;font-size:140%"><i class="fab fa-connectdevelop"></i> &nbsp; <a href="https://orcid.org/0000-0002-9553-4261">Orcid</a></span>
+        <span style="display:block;font-family:verdana;font-size:140%"><i class="fas fas fa-book"></i> &nbsp; <a href="https://ui.adsabs.harvard.edu/search/q=%20author%3A%22chaves-montero%2C%20j.%22&sort=date%20desc%2C%20bibcode%20desc&p_=0">Publications</a></span>
+        <span style="display:block;font-family:verdana;font-size:140%"><i class="far fa-envelope"></i> &nbsp; <a href="mailto:jonas.chaves@dipc.org">Email</a></span>
       </div>
     </div>
 
-
     <div id="display">
 
-      <div class="navbar">
+      <!--Navigation bar-->
+      <div id="nav-placeholder"></div>
+      <!-- <div w3-include-html="nav.html"></div> -->
+
+      <!-- <div class="navbar">
         <a href="https://jchavesmontero.github.io/jchavesmontero">Home</a>
 			  <div class="dropdown">
 			    <button class="dropbtn">Projects
 			      <i class="fa fa-caret-down"></i>
 			    </button>
 			    <div class="dropdown-content">
-			      <a href="https://jchavesmontero.github.io/jchavesmontero/projects">Surrogate modelling the Baryonic Universe</a>
-			      <a href="https://jchavesmontero.github.io/jchavesmontero/projects">Angular redshift fluctuations</a>
-			      <a href="https://jchavesmontero.github.io/jchavesmontero/projects">Active galactic nuclei</a>
+			      <a href="https://jchavesmontero.github.io/jchavesmontero/projects/sbu">Modelling galaxy colors</a>
+			      <a href="https://jchavesmontero.github.io/jchavesmontero/projects/arf">Missing baryons</a>
+			      <a href="https://jchavesmontero.github.io/jchavesmontero/projects/agn">Quasars</a>
+            <a href="https://jchavesmontero.github.io/jchavesmontero/projects/ab">Assembly bias</a>
 			    </div>
   			</div>
         <a href="https://jchavesmontero.github.io/jchavesmontero/visualization">Media</a>
         <a href="https://jchavesmontero.github.io/jchavesmontero/about">About me</a>
-  	  </div>
+        <a href="https://jchavesmontero.github.io/jchavesmontero/cv">CV</a>
+  	  </div> -->
 
       <div id="work">
 
@@ -78,7 +87,7 @@
   		        <a href="https://jchavesmontero.github.io/jchavesmontero/projects/arf">
   			      Missing baryons</a>. A complete census of baryons in the late universe is
               challenging due to the intermediate temperate and rarefied character of
-              intergalactic gas. We leverage the cross-correlation of angular 
+              intergalactic gas. In my work, I leverage the cross-correlation of angular 
               redshift fluctuations, a novel observable presenting a strong correlation
               with the cosmic density and velocity fields, and cosmic microwave background
               observations to set constraints on the abundance, location, and properties
@@ -90,16 +99,26 @@
               galaxy surveys will observe hundreds of millions of galaxies with both
               unprecedented precision. Fully exploiting these surveys will require
               a precise control of systematics and pushing cosmological analysis 
-              towards highly non-linear scales. To do so, we propose forward-modelling 
-              actual galaxy observations, i.e. galaxy colors and positions.
+              towards highly non-linear scales. To do so, I am working on forward-modelling 
+              galaxy observations, i.e. producing synthetic galaxy catalogs 
+              presenting the same properties as actual galaxies from observations.
   	        </li>
             <li style="font-family:verdana;font-size:200%"> 
   		        <a href="https://jchavesmontero.github.io/jchavesmontero/projects/agn">
-  			      Super-massive black hole masses</a>. 
+  			      Quasars</a>. Quasars are among the brightest objects in the cosmos, and
+              thus these cosmic beasts enable accessing the distance universe. My work
+              revolves around detecting these sources in narrow-band surveys and 
+              estimating their properties.
   	        </li>
             <li style="font-family:verdana;font-size:200%"> 
               <a href="https://jchavesmontero.github.io/jchavesmontero/projects/ab">
-              Assembly bias</a>. 
+              Assembly bias</a>. A long-standing prediction of structure formation
+              theories is that the clustering of dark matter halos only depends upon
+              their mass. However, cosmological simulations show that the clustering
+              of halos depends upon their concentration, spin, formation time, etc. This
+              effect is commonly known as halo assembly bias and it has been shown to
+              also affect galaxy clustering. I am working on studying the origin of
+              this effect and its influence on the large-scale distribution of galaxies.
             </li>
   	      </ol>
 
@@ -108,10 +127,6 @@
             <a href="https://jchavesmontero.github.io/jchavesmontero/projects">here</a>.
           </p>
               
-      <div id="blog_section">
-        <h1>Blog.</h1>
-        <div id="blogs"></div>
-      </div>
       <div id="footer">
         <center><p style="font-family:verdana;font-size:120%"> Created by Jon&aacute;s Chaves-Montero </p></center>
       </div>
@@ -127,30 +142,15 @@
           document.getElementById("loading").style.display = "none";
         }, 800);
       }, 1500);
-      $.getJSON("blog.json", function(blog) {
-        blog = blog || [];
-        if (blog.length == 0) {
-          return (document.getElementById("blog_section").style.display =
-            "none");
-        }
-        for (var i = 0; i < blog.length; i++) {
-          $("#blogs").append(`
-            <a href="./blog/${blog[i].url_title}/" target="_blank">
-                <section>
-                    <img src="./blog/${blog[i].url_title}/${blog[i].top_image}">
-                    <div class="blog_container">
-                        <div class="section_title">${blog[i].title}</div>
-                        <div class="about_section">
-                            ${blog[i].sub_title}
-                        </div>
-                    </div>
-                </section>
-            </a>
-            `);
-        }
-      }).fail(function() {
-        return (document.getElementById("blog_section").style.display = "none");
+    </script>
+
+    <!-- <script>
+      $(function(){
+        $("#nav-placeholder").load("nav.html");
       });
+    </script> -->
+    <script>
+      w3.includeHTML();
     </script>
 
     <script>
