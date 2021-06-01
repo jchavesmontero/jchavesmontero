@@ -48,9 +48,8 @@
           After defending my thesis at <a href="https://en.wikipedia.org/wiki/Complutense_University_of_Madrid">Complutense University of Madrid</a> in 2017 I moved to Chicago to start a three years postdoctoral fellowship in the <a href="https://cpac.hep.anl.gov">Cosmological Physics and Advanced Computing (CPAC)</a> group at the <a href="https://www.anl.gov">Argonne National Laboratory</a>. During this time, I worked closely with <a href="https://www.anl.gov/profile/salman-habib">Salman Habib</a>, <a href="https://orcid.org/0000-0003-2219-6852">Andrew Hearin</a>, <a href="https://www.anl.gov/profile/katrin-heitmann">Katrin Heitmann</a>,  <a href="https://scholar.google.com/citations?user=dCe3MK0AAAAJ&hl=en&oi=sra">Nesar Ramachandra</a>, and <a href="https://cpac.hep.anl.gov/people/">other members of the group</a>. Since 2020, I am a postdoc at the <a href="http://dipc.ehu.es/">Donostia International Physics Center (DIPC)</a>.
         </p>
             
-        <div id="footer">
-          <center><p style="font-family:verdana;font-size:120%"> Created by Jon&aacute;s Chaves-Montero </p></center>
-        </div>
+        <div id="foot-placeholder"></div>
+        
       </div>
     </div>
 
@@ -58,11 +57,11 @@
       $.get("../nav.html", function(data){
           $("#nav-placeholder").replaceWith(data);
       });
-    </script> 
-
-    <script>
       $.get("../lpanel.html", function(data){
           $("#lpanel-placeholder").replaceWith(data);
+      });
+      $.get("../foot.html", function(data){
+          $("#foot-placeholder").replaceWith(data);
       });
     </script> 
 

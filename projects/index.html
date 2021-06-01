@@ -21,43 +21,49 @@
 
       <div id="work">
         <h1 style="font-family:verdana">Projects</h1>
-        <p style="font-family:verdana;font-size:150%"> TBD </p>
 
-        <h2 style="font-family:verdana">Surrogate modelling the Baryonic Universe (SBU)</h2>
-        <p style="font-family:verdana;font-size:150%"> TBD </p>
-
-          
-        <h2 style="font-family:verdana">Angular redshift fluctuations</h2>
-
-          <!-- Brief description, These works were very popular on the news! Link -->
-          
-          <p style="font-family:verdana;font-size:150%"> 
-            <a href="https://ui.adsabs.harvard.edu/abs/2021MNRAS.503.1798C/abstract">
-                Measuring the evolution of intergalactic gas from z=0 to 5 using the kinematic Sunyaev-Zel'dovich effect.
-            </a> <br>
-            <em>Chaves-Montero, Jonás</em>; Hernández-Monteagudo, Carlos; Angulo, Raúl E.; Emberson, J. D.
-          </p>
-          
-          <p style="font-family:verdana;font-size:150%"> 
-            <a href="https://ui.adsabs.harvard.edu/abs/2021MNRAS.503L..62H/abstract">
-                Tomographic constraints on gravity from angular redshift fluctuations in the late Universe.
-            </a> <br>
-            Hernández-Monteagudo, Carlos; <em>Chaves-Montero, Jonás</em>; Angulo, Raúl E.; Aricò, Giovanni
-          </p>
-          
-        <p style="font-family:verdana;font-size:150%"> 
-            <a href="https://ui.adsabs.harvard.edu/abs/2021MNRAS.503L..56H/abstract">
-                Density weighted angular redshift fluctuations: a new cosmological observable.
-            </a> <br>
-            Hernández-Monteagudo, Carlos; <em>Chaves-Montero, Jonás</em>; Angulo, Raúl E.
-          </p>
-
-        <h2 style="font-family:verdana">Active Galactic Nuclei works (AGN)</h2>
-        <p style="font-family:verdana;font-size:150%"> TBD </p>
+        <ol>
+          <li style="font-family:verdana;font-size:200%"> 
+            <a href="https://jchavesmontero.github.io/jchavesmontero/projects/arf">
+            Missing baryons</a>. A complete census of baryons in the late universe is
+            challenging due to the intermediate temperate and rarefied character of
+            intergalactic gas. In my work, I leverage the cross-correlation of angular 
+            redshift fluctuations, a novel observable presenting a strong correlation
+            with the cosmic density and velocity fields, and cosmic microwave background
+            observations to set constraints on the abundance, location, and properties
+            of intergalactic gas. 
+          </li>
+          <li style="font-family:verdana;font-size:200%"> 
+            <a href="https://jchavesmontero.github.io/jchavesmontero/projects/sbu">
+            Forward-modelling galaxy colors</a>. The next generation of large-scale 
+            galaxy surveys will observe hundreds of millions of galaxies with both
+            unprecedented precision. Fully exploiting these surveys will require
+            a precise control of systematics and pushing cosmological analysis 
+            towards highly non-linear scales. To do so, I am working on forward-modelling 
+            galaxy observations, i.e. producing synthetic galaxy catalogs 
+            presenting the same properties as actual galaxies from observations.
+          </li>
+          <li style="font-family:verdana;font-size:200%"> 
+            <a href="https://jchavesmontero.github.io/jchavesmontero/projects/agn">
+            Quasars</a>. Quasars are among the brightest objects in the cosmos, and
+            thus these cosmic beasts enable accessing the distance universe. My work
+            revolves around detecting these sources in narrow-band surveys and 
+            estimating their properties.
+          </li>
+          <li style="font-family:verdana;font-size:200%"> 
+            <a href="https://jchavesmontero.github.io/jchavesmontero/projects/ab">
+            Assembly bias</a>. A long-standing prediction of structure formation
+            theories is that the clustering of dark matter halos only depends upon
+            their mass. However, cosmological simulations show that the clustering
+            of halos depends upon their concentration, spin, formation time, etc. This
+            effect is commonly known as halo assembly bias and it has been shown to
+            also affect galaxy clustering. I am working on studying the origin of
+            this effect and its influence on the large-scale distribution of galaxies.
+          </li>
+        </ol>
             
-        <div id="footer">
-          <center><p style="font-family:verdana;font-size:120%"> Created by Jon&aacute;s Chaves-Montero </p></center>
-        </div>
+        <div id="foot-placeholder"></div>
+
       </div>
     </div>
 
@@ -65,11 +71,11 @@
       $.get("../nav.html", function(data){
           $("#nav-placeholder").replaceWith(data);
       });
-    </script> 
-
-    <script>
       $.get("../lpanel.html", function(data){
           $("#lpanel-placeholder").replaceWith(data);
+      });
+      $.get("../foot.html", function(data){
+          $("#foot-placeholder").replaceWith(data);
       });
     </script> 
 
