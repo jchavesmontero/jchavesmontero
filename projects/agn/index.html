@@ -22,7 +22,7 @@
       <div id="work">
         <h1 style="font-family:verdana">Quasars</h1>
         <p style="font-family:verdana;font-size:200%"> 
-          Quasars are among the brightest objects in the cosmos, and thus these cosmic beasts enable accessing the distance universe. My work revolves around detecting these sources in narrow-band surveys and estimating their properties. 
+          Quasars are among the brightest objects in the cosmos, sheding light into the distance universe. My work revolves around detecting these sources in narrow-band surveys and estimating their properties. 
         </p>
         <p style="font-family:verdana;font-size:200%"> 
           Publications:
@@ -34,26 +34,20 @@
           <li style="font-family:verdana;font-size:200%">
             <b>Chaves-Montero J.</b>, Bonoli S., Salvato M., Greisel N., Díaz-García L. A., López-Sanjuan C., Viironen K., et al., 2017, MNRAS, 472, 2085. doi:<a href="https://ui.adsabs.harvard.edu/abs/2017MNRAS.472.2085C/abstract">10.1093/mnras/stx2054</a>.
           </li>
-          <li style="font-family:verdana;font-size:200%">
-            Pieri M. M., Bonoli S., <b>Chaves-Montero J.</b>, Pâris I., Fumagalli M., Bolton J. S., Viel M., et al., 2016, sf2a.conf, 259. <a href="https://ui.adsabs.harvard.edu/abs/2016sf2a.conf..259P/abstract">Link</a>.
-          </li>
         </ul>
             
-        <div id="footer">
-          <center><p style="font-family:verdana;font-size:120%"> Created by Jon&aacute;s Chaves-Montero </p></center>
-        </div>
       </div>
     </div>
 
-    <script>
-      $.get("../../nav.html", function(data){
+    <script>      
+      $.get("nav.html", function(data){
           $("#nav-placeholder").replaceWith(data);
       });
-    </script> 
-
-    <script>
-      $.get("../../lpanel.html", function(data){
+      $.get("lpanel.html", function(data){
           $("#lpanel-placeholder").replaceWith(data);
+      });
+      $.get("foot.html", function(data){
+          $("#foot-placeholder").replaceWith(data);
       });
     </script> 
 
