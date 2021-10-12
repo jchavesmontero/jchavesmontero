@@ -45,14 +45,16 @@
       </div>
     </div>
 
-    <script>      
-      $.get("nav.html", function(data){
+    <div id="foot-placeholder"></div>
+    
+    <script>
+      $.get("../../nav.html", function(data){
           $("#nav-placeholder").replaceWith(data);
       });
-      $.get("lpanel.html", function(data){
+      $.get("../../lpanel.html", function(data){
           $("#lpanel-placeholder").replaceWith(data);
       });
-      $.get("foot.html", function(data){
+      $.get("../../foot.html", function(data){
           $("#foot-placeholder").replaceWith(data);
       });
     </script> 
