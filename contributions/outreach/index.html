@@ -1,0 +1,86 @@
+<!DOCTYPE html><html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>jchavesmontero</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/magic-grid/dist/magic-grid.min.js"></script>
+    <link rel="stylesheet" href="../index.css">
+    <link rel="icon" href="https://avatars.githubusercontent.com/u/35238605?v=4" type="image/png">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+
+  <body>
+    <div id="lpanel-placeholder"></div>
+
+    <div id="display">
+      <div id="nav-placeholder"></div>
+
+      <div id="work">
+        <h1 style="font-family:verdana">WIP</h1>
+
+       <!--  <p style="font-family:verdana;font-size:100%">
+          Organization of meetings:
+        </p>
+          <ul>
+            <li style="font-family:verdana;font-size:100%">
+              First BCN-MAD meeting: "DES x DESI", 10 November 2022. Co-chair. ICE-IFAE-PIC-IFT-CIEMAT, Spain
+            </li>
+            <li style="font-family:verdana;font-size:100%">
+              Symposium "Galaxies as cosmological tracers" at the European Astronomical Society Annual meeting, 21 June - 1 July 2022. Co-chair, Scientific Organizing Comitee, and Local Organizing Comitee.<a href="https://eas.unige.ch/EAS2022/session.jsp?id=S2">Webpage</a>. Valencia Conference Centre, Valencia, Spain
+            </li>
+            <li style="font-family:verdana;font-size:100%">
+              XI scientific meeting of the Spanish Astronomical Society, 8-12 September 2014. Local Organizing Comitee. <a href="https://www.sea-astronomia.es/reunion-cientifica-2014">Webpage</a>. Teruel, Spain
+            </li>
+          </ul> -->
+            
+        <div id="foot-placeholder"></div>
+        
+      </div>
+    </div>
+
+    <script>
+      $.get("../nav.html", function(data){
+          $("#nav-placeholder").replaceWith(data);
+      });
+      $.get("../lpanel.html", function(data){
+          $("#lpanel-placeholder").replaceWith(data);
+      });
+      $.get("../foot.html", function(data){
+          $("#foot-placeholder").replaceWith(data);
+      });
+    </script> 
+
+    <script>
+      const magicProjectsGrid = new MagicGrid({
+        container: "#work_section",
+        animate: false,
+        gutter: 30, // default gutter size
+        static: true,
+        useMin: false,
+        maxColumns: 2,
+        useTransform: true
+      });
+
+      const magicForksGrid = new MagicGrid({
+        container: "#forks_section",
+        animate: false,
+        gutter: 30, // default gutter size
+        static: true,
+        useMin: false,
+        maxColumns: 2,
+        useTransform: true
+      });
+
+      $("document").ready(() => {
+        magicProjectsGrid.listen();
+        magicForksGrid.listen();
+      });
+    </script>
+  
+  </body>
+</html>
+
