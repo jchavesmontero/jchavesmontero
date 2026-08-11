@@ -23,11 +23,11 @@
           <a class="button button-secondary" href="cv/CV.pdf">View CV</a>
         </div>
         <div class="research-stats" aria-label="Research overview">
-          <div><strong>85</strong><span>publications</span></div>
-          <div><strong>5,800+</strong><span>citations</span></div>
-          <div><strong>28</strong><span>h-index</span></div>
+          <div><strong id="ads-publications">85</strong><span>publications</span></div>
+          <div><strong id="ads-citations">5,800+</strong><span>citations</span></div>
+          <div><strong id="ads-h-index">28</strong><span>h-index</span></div>
         </div>
-        <p class="metrics-note">NASA/ADS metrics · December 2025</p>
+        <p class="metrics-note"><a id="ads-profile-link" href="https://ui.adsabs.harvard.edu/search/fq=%7B!type%3Daqp%20v%3D%24fq_database%7D&amp;fq_database=(database%3Aastronomy%20OR%20database%3Aphysics)&amp;q=%20author%3A%22chaves-montero%2C%20j.%22&amp;sort=date%20desc%2C%20bibcode%20desc/metrics">NASA/ADS metrics</a> · <span id="ads-updated">December 2025</span></p>
       </section>
 
       <section class="page-section" id="research">
@@ -113,5 +113,19 @@
     $.get("nav.html", data => $("#nav-placeholder").replaceWith(data));
     $.get("lpanel.html", data => $("#lpanel-placeholder").replaceWith(data));
     $.get("foot.html", data => $("#foot-placeholder").replaceWith(data));
+    fetch("data/ads-profile.json", {cache: "no-store"})
+      .then(response => {
+        if (!response.ok) throw new Error("ADS snapshot unavailable");
+        return response.json();
+      })
+      .then(profile => {
+        const number = new Intl.NumberFormat("en-US");
+        document.querySelector("#ads-publications").textContent = number.format(profile.publication_count);
+        document.querySelector("#ads-citations").textContent = number.format(profile.citation_count) + (profile.estimated ? "+" : "");
+        document.querySelector("#ads-h-index").textContent = number.format(profile.h_index);
+        document.querySelector("#ads-profile-link").href = profile.profile_url;
+        document.querySelector("#ads-updated").textContent = "synced " + new Date(profile.updated + "T12:00:00Z").toLocaleDateString("en-GB", {month: "long", year: "numeric", timeZone: "UTC"});
+      })
+      .catch(() => {});
   </script>
 </body></html>

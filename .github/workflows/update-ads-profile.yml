@@ -1,0 +1,42 @@
+name: Update ADS profile
+
+on:
+  schedule:
+    - cron: "17 6 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-ads-profile
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the website
+        uses: actions/checkout@v6
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Query NASA ADS
+        env:
+          ADS_API_TOKEN: ${{ secrets.ADS_API_TOKEN }}
+        run: python scripts/update_ads_profile.py
+
+      - name: Commit a changed snapshot
+        run: |
+          if git diff --quiet -- data/ads-profile.json; then
+            echo "ADS profile is already current."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/ads-profile.json
+          git commit -m "chore: refresh ADS profile metrics"
+          git push
