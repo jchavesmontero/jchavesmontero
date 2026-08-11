@@ -1,104 +1,27 @@
-<!DOCTYPE html><html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>jchavesmontero</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-    <script src="https://unpkg.com/magic-grid/dist/magic-grid.min.js"></script>
-    <link rel="stylesheet" href="../../index.css">
-    <link rel="icon" href="https://avatars.githubusercontent.com/u/35238605?v=4" type="image/png">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  </head>
+<!DOCTYPE html><html lang="en"><head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Collaborations · Jonás Chaves-Montero</title><meta name="description" content="Scientific collaborations and leadership roles of Jonás Chaves-Montero.">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" crossorigin="anonymous"><link rel="stylesheet" href="../../index.css"><link rel="icon" href="https://avatars.githubusercontent.com/u/35238605?v=4" type="image/png"><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head><body><div id="lpanel-placeholder"></div><div id="display"><div id="nav-placeholder"></div>
+<main id="work" class="contribution-page">
+  <p class="eyebrow">Scientific community</p><h1>Collaborations</h1>
+  <p class="intro">I contribute to major international surveys at the intersection of large-scale structure, simulation-based modelling, and cosmological inference.</p>
 
-  <body>
-    <div id="lpanel-placeholder"></div>
+  <section class="leadership-feature">
+    <div><span>Since 2025</span><h2>DESI Lyα Small Scales</h2><p>Coordinator of the topical group advancing cosmological analyses of nonlinear Lyman-alpha forest measurements.</p></div>
+    <div><span>Since 2024</span><h2>Euclid Mock Data Challenges</h2><p>Coordinator of the work package validating full-shape clustering pipelines and the scales they can reliably analyse.</p></div>
+  </section>
 
-    <div id="display">
-      <div id="nav-placeholder"></div>
-
-      <div id="work">
-        <p style="font-family:verdana;font-size:100%">
-          Leadership:
-        </p>
-          <ul>
-            <li style="font-family:verdana;font-size:100%">
-              Coordinator of photometric redshift working group, 2020-2022, J-PAS collaboration
-              Member of the Survey Science Committee, 2020-2022, J-PAS collaboration
-            </li>
-          </ul>
-
-        <p style="font-family:verdana;font-size:100%">
-          Membership (active):
-        </p>
-          <ul>
-            <li style="font-family:verdana;font-size:100%">
-              DESI collaboration, since 2022
-            </li>
-              <li style="font-family:verdana;font-size:100%">
-              Spherex collaboration, 2017-2020
-            </li>
-              <li style="font-family:verdana;font-size:100%">
-              J-PAS collaboration, since 2013
-            </li>
-              <li style="font-family:verdana;font-size:100%">
-              International Astronomical Union, since 2022
-            </li>
-              <li style="font-family:verdana;font-size:100%">
-              European Astronomical Society, since 2018
-            </li>
-              <li style="font-family:verdana;font-size:100%">
-              Spanish Astronomical Society, since 2013  
-            </li>
-          </ul>
-
-            
-        <div id="foot-placeholder"></div>
-        
-      </div>
+  <section class="page-section compact-section">
+    <div class="section-intro"><div><p class="eyebrow">Survey experience</p><h2>International collaborations</h2></div></div>
+    <div class="experience-list">
+      <article><strong>DESI</strong><div><h3>Dark Energy Spectroscopic Instrument</h3><p>Member since 2022; contributed to 27 collaboration papers documented in the 2025 CV, small-scale Lyα analysis, BAO validation, committees, and Spanish press coordination.</p></div></article>
+      <article><strong>Euclid</strong><div><h3>Euclid Consortium</h3><p>Mock-data leadership and full-shape galaxy-clustering validation, with work spanning empirical models and clustering-redshift calibration.</p></div></article>
+      <article><strong>J-PAS</strong><div><h3>Javalambre Physics of the Accelerating Universe Survey</h3><p>Photometric Redshift Working Group coordinator and Science Survey Committee member from 2020 to 2022, following contributions since the PhD.</p></div></article>
+      <article><strong>SPHEREx</strong><div><h3>NASA all-sky spectral survey</h3><p>Contributed simulations and the scientific visualization used during the mission selection process from 2017 to 2020.</p></div></article>
     </div>
+  </section>
 
-    <script>
-      $.get("../../nav.html", function(data){
-          $("#nav-placeholder").replaceWith(data);
-      });
-      $.get("../../lpanel.html", function(data){
-          $("#lpanel-placeholder").replaceWith(data);
-      });
-      $.get("../../foot.html", function(data){
-          $("#foot-placeholder").replaceWith(data);
-      });
-    </script> 
-
-    <script>
-      const magicProjectsGrid = new MagicGrid({
-        container: "#work_section",
-        animate: false,
-        gutter: 30, // default gutter size
-        static: true,
-        useMin: false,
-        maxColumns: 2,
-        useTransform: true
-      });
-
-      const magicForksGrid = new MagicGrid({
-        container: "#forks_section",
-        animate: false,
-        gutter: 30, // default gutter size
-        static: true,
-        useMin: false,
-        maxColumns: 2,
-        useTransform: true
-      });
-
-      $("document").ready(() => {
-        magicProjectsGrid.listen();
-        magicForksGrid.listen();
-      });
-    </script>
-  
-  </body>
-</html>
-
+  <section class="societies"><p class="eyebrow">Professional societies</p><div><span>International Astronomical Union · since 2022</span><span>European Astronomical Society · since 2018</span><span>Spanish Astronomical Society · since 2013</span></div></section>
+  <div id="foot-placeholder"></div>
+</main></div><script>$.get("../../nav.html",d=>$("#nav-placeholder").replaceWith(d));$.get("../../lpanel.html",d=>$("#lpanel-placeholder").replaceWith(d));$.get("../../foot.html",d=>$("#foot-placeholder").replaceWith(d));</script></body></html>

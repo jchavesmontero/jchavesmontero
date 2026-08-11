@@ -1,102 +1,117 @@
 <!DOCTYPE html><html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Webpage of Jonás Chaves-Montero</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-    <script src="https://unpkg.com/magic-grid/dist/magic-grid.min.js"></script>
-    <link rel="stylesheet" href="index.css">
-    <link rel="icon" href="https://avatars.githubusercontent.com/u/35238605?v=4" type="image/png">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  </head>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jonás Chaves-Montero · Astrophysics &amp; Cosmology</title>
+  <meta name="description" content="Research by Jonás Chaves-Montero on cosmology, the Lyman-alpha forest, galaxy formation, and scientific machine learning.">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" crossorigin="anonymous">
+  <link rel="stylesheet" href="index.css">
+  <link rel="icon" href="https://avatars.githubusercontent.com/u/35238605?v=4" type="image/png">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+  <div id="lpanel-placeholder"></div>
+  <div id="display">
+    <div id="nav-placeholder"></div>
+    <main id="work" class="home-page">
+      <section class="hero">
+        <p class="eyebrow">Cosmology · Astrophysics · Scientific AI</p>
+        <h1>Finding structure in the dark Universe.</h1>
+        <p class="intro">I am a researcher at the <a href="https://www.ifae.es/">Institut de Física d'Altes Energies</a> in Barcelona. I combine cosmological surveys, numerical simulations, and machine learning to understand how galaxies and intergalactic matter trace the Universe.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="publications/">Explore publications <span aria-hidden="true">↗</span></a>
+          <a class="button button-secondary" href="cv/CV.pdf">View CV</a>
+        </div>
+        <div class="research-stats" aria-label="Research overview">
+          <div><strong>85</strong><span>publications</span></div>
+          <div><strong>5,800+</strong><span>citations</span></div>
+          <div><strong>28</strong><span>h-index</span></div>
+        </div>
+        <p class="metrics-note">NASA/ADS metrics · December 2025</p>
+      </section>
 
-  <body>
-    <div id="lpanel-placeholder"></div>
+      <section class="page-section" id="research">
+        <div class="section-intro">
+          <div><p class="eyebrow">Research</p><h2>From galaxies to cosmology</h2></div>
+          <p>I work where astrophysical modelling and precision cosmology meet, turning complex observations into robust constraints on the Universe.</p>
+        </div>
+        <div class="research-grid">
+          <a class="research-card research-card-featured" href="projects/agn/">
+            <span class="card-index">01</span><i class="fas fa-wave-square" aria-hidden="true"></i>
+            <h3>Lyman-alpha forest</h3>
+            <p>Fast, accurate models of intergalactic hydrogen clustering—from one-dimensional spectra to nonlinear three-dimensional structure.</p>
+            <span class="card-link">Explore the research <b>→</b></span>
+          </a>
+          <a class="research-card" href="projects/sbu/">
+            <span class="card-index">02</span><i class="fas fa-project-diagram" aria-hidden="true"></i>
+            <h3>Galaxy–halo connection</h3>
+            <p>Connecting galaxies to dark matter halos and extracting cosmology from small-scale clustering.</p>
+            <span class="card-link">Explore the research <b>→</b></span>
+          </a>
+          <a class="research-card" href="projects/lil/">
+            <span class="card-index">03</span><i class="fas fa-circle-notch" aria-hidden="true"></i>
+            <h3>Clustering &amp; lensing</h3>
+            <p>Understanding the lensing-is-low problem through more realistic models of galaxy formation.</p>
+            <span class="card-link">Explore the research <b>→</b></span>
+          </a>
+          <a class="research-card" href="projects/arf/">
+            <span class="card-index">04</span><i class="fas fa-satellite-dish" aria-hidden="true"></i>
+            <h3>Missing baryons</h3>
+            <p>Mapping diffuse intergalactic gas with the kinematic Sunyaev–Zel’dovich effect.</p>
+            <span class="card-link">Explore the research <b>→</b></span>
+          </a>
+        </div>
+      </section>
 
-    <div id="display">
-      <div id="nav-placeholder">
-      </div>    
+      <section class="page-section latest-section">
+        <div class="section-intro">
+          <div><p class="eyebrow">Latest work</p><h2>Recent publications</h2></div>
+          <a class="text-link" href="publications/">View all 52 publications →</a>
+        </div>
+        <div class="latest-grid">
+          <article class="latest-card">
+            <div class="publication-meta"><span>2026</span><span>Lyα forest</span></div>
+            <h3><a href="https://doi.org/10.48550/arXiv.2607.27413">Lyman-α forest holography: 3D predictions from 1D measurements</a></h3>
+            <p>Mapping DESI one-dimensional constraints into nonlinear three-dimensional clustering predictions.</p>
+          </article>
+          <article class="latest-card">
+            <div class="publication-meta"><span>2026</span><span>Cosmology</span></div>
+            <h3><a href="https://doi.org/10.1088/1475-7516/2026/06/040">Cosmological analysis of the DESI DR1 Lyα 1D power spectrum</a></h3>
+            <p>Turning precise small-scale forest measurements into constraints on the primordial matter spectrum.</p>
+          </article>
+          <article class="latest-card">
+            <div class="publication-meta"><span>2026</span><span>Galaxy clustering</span></div>
+            <h3><a href="https://arxiv.org/abs/2604.19449v1">Cosmological constraints from small-scale ELG clustering</a></h3>
+            <p>Applying SHAMe-SF to DESI emission-line galaxies down to deeply nonlinear scales.</p>
+          </article>
+        </div>
+      </section>
 
-      <div id="work">
+      <section class="page-section tools-section">
+        <div class="section-intro">
+          <div><p class="eyebrow">Open science</p><h2>Tools built for inference</h2></div>
+          <p>Open-source software that turns simulations and survey measurements into tractable cosmological models.</p>
+        </div>
+        <div class="tools-grid">
+          <article><span>01</span><h3>ForestFlow</h3><p>Full-scale emulator for one- and three-dimensional Lyman-alpha forest clustering.</p></article>
+          <article><span>02</span><h3>LaCE</h3><p>Emulation framework for the Lyman-alpha one-dimensional flux power spectrum.</p></article>
+          <article><span>03</span><h3>Cup1D</h3><p>Likelihood and inference code used in the DESI DR1 P1D cosmological analysis.</p></article>
+          <article><span>04</span><h3>Galaxpy</h3><p>Fast galaxy spectral predictions used across seven scientific publications.</p></article>
+        </div>
+        <a class="text-link tools-link" href="https://github.com/jchavesmontero">Explore open-source work on GitHub →</a>
+      </section>
 
-        <p style="font-family:Verdana;font-size:100%;">
-            I am a postdoctoral researcher at the Institut de Física d'Altes Energies (<a href="https://www.ifae.es/">IFAE</a>) in Barcelona. My research revolves around a broad range of topics in Cosmology and Astrophysics, including the galaxy-halo connection, Lyman alpha forest, active galactic nuclei, photometric redshifts, and cross-correlation of cosmic probes. My principal lines of work are:
-            <br><br>
-        </p>
-
-        <ol>
-          <li style="font-family:verdana;font-size:100%"> 
-            <a href="https://jchavesmontero.github.io/jchavesmontero/projects/lil">
-            The lensing-is-low problem</a>. It is now widely recognized that simulation-based models optimized to fit the clustering of massive galaxies overestimate their gravitational lensing on small scales, which is commonly known as the "lensing-is-low problem." It has been proposed that this is just another face of the low-S8 tension, i.e., the discrepancy between early- and late-universe constraints on the amplitude of matter perturbations. However, I found that this problem reflects shortcomings of standard galaxy-halo connection models rather than tensions within the ΛCDM paradigm, and that it goes away when using more sophisticated models.
-          </li>
-          <br>
-          <li style="font-family:verdana;font-size:100%"> 
-            <a href="https://jchavesmontero.github.io/jchavesmontero/projects/sbu">
-            Galaxy-halo connection</a>. Thanks to the high-precision observations of ongoing and upcoming galaxy surveys, observational systematics and modeling shortcomings are progressively surpassing statistical errors as the primary source of uncertainty in large-scale structure studies. This problem is especially significant when attempting to extract cosmological information from small scales because statistical errors are very small in this regime, while non-linear couplings induced by gravity and the influence of galaxy formation physics are the largest. I study the impact of galaxy formation effects such as assembly bias on cosmological observables and work on novel models to extract unbiased cosmological constraints from small scales.
-          </li>
-          <br>
-          <li style="font-family:verdana;font-size:100%"> 
-            <a href="https://jchavesmontero.github.io/jchavesmontero/projects/arf">
-            Missing baryons</a>. A complete census of baryons in the late universe is challenging due to the intermediate temperate and rarefied character of intergalactic gas. However, the kinematic Sunyaev-Zel'dovich effect (kSZ) is ideally suited to detect these baryons, which refers to the Doppler boosting of CMB photons as these scatter off free electrons moving relative to the CMB rest frame. This is because this observable is sensitive to all free electrons, independently of the temperature and density of the medium in which these reside. I used the cross-correlation of the kSZ effect and angular redshift fluctuations to set tomographic constraints on the abundance, location, and properties of intergalactic gas.
-          </li>
-          <br>
-          <li style="font-family:verdana;font-size:100%"> 
-		        <a href="https://jchavesmontero.github.io/jchavesmontero/projects/agn">
-			      Lyman alpha forest</a>. Quasars are the brightest persistent sources in the Universe, and thanks to their great luminosity, we can detect them even at very high redshifts. As quasar light travels towards us, it interacts with neutral hydrogen in the intergalactic medium, producing a series of absorption features commonly known as the Lyman alpha forest. Modeling this observable on small scales presents significant challenges due to its dependence on the properties of the intergalactic medium and the non-linear nature of gravity. Typically, it requires high-demanding hydrodynamical simulations. I work on building machine learning-based surrogate models to accelerate the predictions of these simulations. Additionally, I have experience in identifying quasars, measuring their redshifts, and estimating the masses of supermassive black holes.
-	        </li>
-          <!-- <li style="font-family:verdana;font-size:100%"> 
-            <a href="https://jchavesmontero.github.io/jchavesmontero/projects/ab">
-            Assembly bias</a>. A long-standing prediction of structure formation theories is that the clustering of dark matter halos only depends upon their mass. However, cosmological simulations show that their clustering depends upon multiple halo properties, including concentration, spin, and formation time; this effect is commonly known as halo assembly bias. In principle, this effect could propagate into the clustering of galaxies due to the tight connection between galaxies and halos; this effect is referred to as galaxy assembly bias. I study the origin of assembly bias and its influence on the large-scale distribution of galaxies.
-          </li> -->
-	      </ol>
-            
-        <div id="foot-placeholder"></div>
-
-      </div>
-    </div>
-
-    <script>
-      $.get("nav.html", function(data){
-          $("#nav-placeholder").replaceWith(data);
-      });
-      $.get("lpanel.html", function(data){
-          $("#lpanel-placeholder").replaceWith(data);
-      });
-      $.get("foot.html", function(data){
-          $("#foot-placeholder").replaceWith(data);
-      });
-    </script> 
-
-    <script>
-      const magicProjectsGrid = new MagicGrid({
-        container: "#work_section",
-        animate: false,
-        gutter: 30, // default gutter size
-        static: true,
-        useMin: false,
-        maxColumns: 2,
-        useTransform: true
-      });
-
-      const magicForksGrid = new MagicGrid({
-        container: "#forks_section",
-        animate: false,
-        gutter: 30, // default gutter size
-        static: true,
-        useMin: false,
-        maxColumns: 2,
-        useTransform: true
-      });
-
-      $("document").ready(() => {
-        magicProjectsGrid.listen();
-        magicForksGrid.listen();
-      });
-    </script>
-  
-  </body>
-</html>
-
+      <section class="collaboration-banner">
+        <div><p class="eyebrow">Collaborations</p><h2>Science at survey scale</h2></div>
+        <p>My work contributes to major international efforts including DESI, J-PAS, miniJPAS, and computational cosmology collaborations.</p>
+        <a class="button button-light" href="contributions/membership/">View memberships</a>
+      </section>
+      <div id="foot-placeholder"></div>
+    </main>
+  </div>
+  <script>
+    $.get("nav.html", data => $("#nav-placeholder").replaceWith(data));
+    $.get("lpanel.html", data => $("#lpanel-placeholder").replaceWith(data));
+    $.get("foot.html", data => $("#foot-placeholder").replaceWith(data));
+  </script>
+</body></html>

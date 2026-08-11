@@ -1,91 +1,35 @@
 <!DOCTYPE html><html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>jchavesmontero</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-    <script src="https://unpkg.com/magic-grid/dist/magic-grid.min.js"></script>
-    <link rel="stylesheet" href="../../index.css">
-    <link rel="icon" href="https://avatars.githubusercontent.com/u/35238605?v=4" type="image/png">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  </head>
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galaxy–Halo Connection · Jonás Chaves-Montero</title>
+  <meta name="description" content="Research on the galaxy-halo connection, assembly bias, and small-scale cosmology.">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" crossorigin="anonymous">
+  <link rel="stylesheet" href="../../index.css"><link rel="icon" href="https://avatars.githubusercontent.com/u/35238605?v=4" type="image/png">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+  <div id="lpanel-placeholder"></div><div id="display"><div id="nav-placeholder"></div>
+  <main id="work" class="research-page">
+    <p class="eyebrow">Research theme · 02</p>
+    <h1>Galaxy–halo connection</h1>
+    <p class="intro">Galaxies do not trace dark matter in a simple way. I develop and test empirical models that capture this connection well enough to use nonlinear clustering for cosmology.</p>
+    <div class="topic-tags"><span>Galaxy clustering</span><span>Assembly bias</span><span>SHAMe</span><span>DESI</span></div>
 
-  <body>
-    <div id="lpanel-placeholder"></div>
+    <section class="research-overview">
+      <div><p>Modern surveys measure galaxy clustering with such precision that simplified assumptions about galaxy formation can dominate the error budget. Assembly history, satellite evolution, baryonic physics, and sample selection all reshape the observed signal.</p><p>I study these effects in hydrodynamical simulations and encode them in flexible empirical models such as SHAMe and SHAMe-SF. The goal is to extract unbiased cosmology from small scales while retaining a transparent physical interpretation of the galaxy population.</p></div>
+      <aside><span>Core question</span><strong>Can nonlinear galaxy clustering become a precise and trustworthy cosmological probe?</strong></aside>
+    </section>
 
-    <div id="display">
-      <div id="nav-placeholder"></div>
-
-      <div id="work">
-        <h1 style="font-family:verdana">Forward-modelling galaxy colors</h1>
-        <p style="font-family:verdana;font-size:100%"> 
-          The next generation of large-scale galaxy surveys will observe hundreds of millions of galaxies with both unprecedented precision. Fully exploiting these surveys will require a precise control of systematics and pushing cosmological analysis towards highly non-linear scales. To do so, I am working on forward-modelling galaxy observations, i.e. producing synthetic galaxy catalogs presenting the same properties as actual galaxies from observations.
-        </p>
-        <p style="font-family:verdana;font-size:100%"> 
-          Publications:
-        </p>
-        <ul>
-          <li style="font-family:verdana;font-size:100%">
-            Hearin A. P., <b>Chaves-Montero J.</b>, Becker M. R., Alarcon A., 2021, OJA, 4, 1, 7. doi:<a href="https://ui.adsabs.harvard.edu/abs/2021OJAp....4E...7H/abstract">10.21105/astro.2105.05859</a>.<br>
-            <font color='orange'>Summary:</font> differentiable, precise empirical model for the assembly of individual and populations of dark matter halos, the latter capturing both average mass growth and the diversity of assembly histories.
-          </li>
-          <li style="font-family:verdana;font-size:100%">
-            <b>Chaves-Montero J.</b>, Hearin A., 2021, MNRAS, 506, 2373. doi:<a href="https://ui.adsabs.harvard.edu/abs/2021MNRAS.506.2373C/abstract">10.1093/mnras/stab1831</a>.<br>
-            <font color='orange'>Summary:</font> short-term star formation fluctuations modify the colors of individual galaxies substantially, but present very little impact on the colors of galaxy populations. We provide an expression to forecast the impact of these fluctuations on the colors of individual galaxies. 
-          </li>
-          <li style="font-family:verdana;font-size:100%">
-            <b>Chaves-Montero J.</b>, Hearin A., 2020, MNRAS, 495, 2088. doi:<a href="https://ui.adsabs.harvard.edu/abs/2020MNRAS.495.2088C/abstract">10.1093/mnras/staa1230</a>.<br>
-            <font color='orange'>Summary:</font> star formation variations modify galaxy colours along a single direction in color space, and the position of a galaxy along this direction is regulated by the fraction of stellar mass formed over the last billion years.
-          </li>
-        </ul>
-            
+    <section class="page-section compact-section">
+      <div class="section-intro"><div><p class="eyebrow">Selected work</p><h2>Modelling galaxies in halos</h2></div><a class="text-link" href="../../publications/">All publications →</a></div>
+      <div class="project-publications">
+        <article><span>2026</span><h3><a href="https://arxiv.org/abs/2604.19449v1">Small-scale clustering of DESI emission-line galaxies</a></h3><p>Cosmological constraints from ELG clustering down to 0.3 h<sup>−1</sup> Mpc with SHAMe-SF.</p></article>
+        <article><span>2025</span><h3><a href="https://doi.org/10.48550/arXiv.2504.06770">Measuring and predicting galaxy assembly bias</a></h3><p>Understanding how assembly bias changes with selection, number density, and redshift.</p></article>
+        <article><span>2024</span><h3><a href="https://ui.adsabs.harvard.edu/abs/2024arXiv240718912C">Validating empirical models with FLAMINGO</a></h3><p>Testing HOD and SHAMe predictions with clustering, lensing, and higher-order statistics.</p></article>
+        <article><span>2023</span><h3><a href="https://doi.org/10.1093/mnras/stad2434">Consistent clustering and lensing of BOSS galaxies</a></h3><p>Showing how flexible galaxy–halo models resolve the artificial lensing-is-low discrepancy.</p></article>
       </div>
-    </div>
-
+    </section>
     <div id="foot-placeholder"></div>
-    
-    <script>
-      $.get("../../nav.html", function(data){
-          $("#nav-placeholder").replaceWith(data);
-      });
-      $.get("../../lpanel.html", function(data){
-          $("#lpanel-placeholder").replaceWith(data);
-      });
-      $.get("../../foot.html", function(data){
-          $("#foot-placeholder").replaceWith(data);
-      });
-    </script> 
-
-    <script>
-      const magicProjectsGrid = new MagicGrid({
-        container: "#work_section",
-        animate: false,
-        gutter: 30, // default gutter size
-        static: true,
-        useMin: false,
-        maxColumns: 2,
-        useTransform: true
-      });
-
-      const magicForksGrid = new MagicGrid({
-        container: "#forks_section",
-        animate: false,
-        gutter: 30, // default gutter size
-        static: true,
-        useMin: false,
-        maxColumns: 2,
-        useTransform: true
-      });
-
-      $("document").ready(() => {
-        magicProjectsGrid.listen();
-        magicForksGrid.listen();
-      });
-    </script>
-  
-  </body>
-</html>
-
+  </main></div>
+  <script>$.get("../../nav.html",d=>$("#nav-placeholder").replaceWith(d));$.get("../../lpanel.html",d=>$("#lpanel-placeholder").replaceWith(d));$.get("../../foot.html",d=>$("#foot-placeholder").replaceWith(d));</script>
+</body></html>
