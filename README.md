@@ -8,6 +8,10 @@ The homepage reads publication count, citations, and h-index from `data/ads-prof
 
 To enable it, create an ADS Developer API token in your ADS account and save it in the GitHub repository as an Actions secret named `ADS_API_TOKEN`. Never commit the token to this repository. The workflow keeps the previous snapshot if an ADS request fails.
 
+## Deployment
+
+The `Deploy GitHub Pages` workflow publishes the static site after every push to `main`. In the repository's **Settings → Pages**, the publishing source must be set to **GitHub Actions**. The workflow can also be run manually from the repository's Actions tab.
+
 <!--
 **jchavesmontero/jchavesmontero** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
