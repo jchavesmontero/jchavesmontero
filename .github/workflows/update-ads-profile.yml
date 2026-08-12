@@ -7,6 +7,8 @@ on:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 concurrency:
   group: update-ads-profile
@@ -14,6 +16,9 @@ concurrency:
 
 jobs:
   update:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
       - name: Check out the website
@@ -40,3 +45,15 @@ jobs:
           git add data/ads-profile.json
           git commit -m "chore: refresh ADS profile metrics"
           git push
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v6
+
+      - name: Upload the refreshed website
+        uses: actions/upload-pages-artifact@v5
+        with:
+          path: .
+
+      - name: Deploy the refreshed website
+        id: deployment
+        uses: actions/deploy-pages@v5
