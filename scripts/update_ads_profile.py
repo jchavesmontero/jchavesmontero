@@ -56,13 +56,14 @@ def main() -> int:
         {
             "q": 'author:"chaves-montero, j."',
             "fq": "database:astronomy OR database:physics",
-            "fl": "bibcode",
+            "fl": "bibcode,title,doi,citation_count",
             "rows": 2000,
             "sort": "date desc,bibcode desc",
         }
     )
     search = api_json(f"{SEARCH_URL}?{params}", token)
-    bibcodes = [doc["bibcode"] for doc in search.get("response", {}).get("docs", []) if doc.get("bibcode")]
+    documents = search.get("response", {}).get("docs", [])
+    bibcodes = [doc["bibcode"] for doc in documents if doc.get("bibcode")]
     if not bibcodes:
         raise RuntimeError("ADS search returned no records; keeping the existing snapshot")
 
@@ -71,6 +72,23 @@ def main() -> int:
         token,
         {"bibcodes": bibcodes, "types": ["basic", "citations", "indicators"]},
     )
+    publication_citations = []
+    for document in documents:
+        title = document.get("title", "")
+        if isinstance(title, list):
+            title = title[0] if title else ""
+        dois = document.get("doi", [])
+        if isinstance(dois, str):
+            dois = [dois]
+        publication_citations.append(
+            {
+                "bibcode": document.get("bibcode", ""),
+                "title": title,
+                "dois": dois,
+                "citations": int(document.get("citation_count") or 0),
+            }
+        )
+
     snapshot = {
         "publication_count": metric(metrics, "basic stats", "number of papers"),
         "citation_count": metric(metrics, "citation stats", "total number of citations"),
@@ -79,6 +97,7 @@ def main() -> int:
         "estimated": False,
         "source": "NASA/ADS",
         "profile_url": PROFILE_URL,
+        "publication_citations": publication_citations,
     }
 
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)
@@ -88,6 +107,7 @@ def main() -> int:
     print(
         f"Updated ADS profile: {snapshot['publication_count']} papers, "
         f"{snapshot['citation_count']} citations, h={snapshot['h_index']}"
+        f", {len(publication_citations)} per-publication records"
     )
     return 0
 

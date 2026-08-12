@@ -1,7 +1,7 @@
 const publications = [
   {
     "key": "MGXQ6KIR",
-    "title": "Cosmological analysis of the DESI DR1 Lyα 1D power spectrum",
+    "title": "Cosmological analysis of the DESI DR1 Lyman-α 1D power spectrum",
     "year": "2026",
     "type": "journalArticle",
     "authors": [
@@ -101,7 +101,7 @@ const publications = [
   },
   {
     "key": "M6929L9E",
-    "title": "DESI DR2 Results IV: Alcock-Paczyński Measurements from the Lyman Alpha Forest and Cosmological Constraints",
+    "title": "DESI DR2 Results IV: Alcock-Paczyński Measurements from the Lyman-α Forest and Cosmological Constraints",
     "year": "2026",
     "type": "preprint",
     "authors": [
@@ -263,7 +263,7 @@ const publications = [
     "venue": "",
     "doi": "10.48550/arXiv.2607.27410",
     "url": "http://arxiv.org/abs/2607.27410",
-    "summary": "DESI DR2 full-shape Lyα correlations constrain the Alcock–Paczyński effect to 1% at z=2.33, twice as tightly as BAO from the same data. Joint AP and BAO give precise radial and transverse distances and H0=66.5±1.3 km/s/Mpc with a nucleosynthesis prior; adding the result modestly changes DESI–CMB consistency and retains a multi-probe preference for evolving dark energy."
+    "summary": "DESI DR2 full-shape Lyman-α correlations constrain the Alcock–Paczyński effect to 1% at z=2.33, twice as tightly as BAO from the same data. Joint AP and BAO give precise radial and transverse distances and H0=66.5±1.3 km/s/Mpc with a nucleosynthesis prior; adding the result modestly changes DESI–CMB consistency and retains a multi-probe preference for evolving dark energy."
   },
   {
     "key": "VRILPD7H",
@@ -310,7 +310,7 @@ const publications = [
   },
   {
     "key": "6GEP8F7G",
-    "title": "Lyman-$α$ forest holography: 3D predictions from 1D measurements",
+    "title": "Lyman-α forest holography: 3D predictions from 1D measurements",
     "year": "2026",
     "type": "preprint",
     "authors": [
@@ -389,11 +389,11 @@ const publications = [
     "venue": "",
     "doi": "10.48550/arXiv.2607.27413",
     "url": "http://arxiv.org/abs/2607.27413",
-    "summary": "Using ForestFlow, the paper maps DESI P1D constraints into predictions for three-dimensional Lyα clustering from linear to nonlinear scales. The predictions reproduce DESI BAO-scale measurements, furnish nonlinear priors for the DR2 full-shape analysis, and pass an independent ACCEL-2 hydrodynamical test; P1D and BAO constrain bias–growth combinations with complementary degeneracies."
+    "summary": "Using ForestFlow, the paper maps DESI P1D constraints into predictions for three-dimensional Lyman-α clustering from linear to nonlinear scales. The predictions reproduce DESI BAO-scale measurements, furnish nonlinear priors for the DR2 full-shape analysis, and pass an independent ACCEL-2 hydrodynamical test; P1D and BAO constrain bias–growth combinations with complementary degeneracies."
   },
   {
     "key": "CR8Z7BW7",
-    "title": "Machine Learning Techniques for Astrophysics and Cosmology: Lyman-$\\alpha$ forest",
+    "title": "Machine Learning Techniques for Astrophysics and Cosmology: Lyman-α forest",
     "year": "2026",
     "type": "webpage",
     "authors": [
@@ -402,11 +402,11 @@ const publications = [
     "venue": "arXiv.org",
     "doi": "",
     "url": "https://arxiv.org/abs/2605.22489v1",
-    "summary": "This chapter reviews machine-learning applications to Lyα-forest science, from absorber detection and quasar-continuum reconstruction to hydrodynamical emulation, simulation-based inference, field-level analysis, and three-dimensional density reconstruction. It relates these tools to IGM thermal history, reionization, expansion, structure growth, neutrinos, and dark matter."
+    "summary": "This chapter reviews machine-learning applications to Lyman-α forest science, from absorber detection and quasar-continuum reconstruction to hydrodynamical emulation, simulation-based inference, field-level analysis, and three-dimensional density reconstruction. It relates these tools to IGM thermal history, reionization, expansion, structure growth, neutrinos, and dark matter."
   },
   {
     "key": "FN7XZR2H",
-    "title": "DESI DR1 Ly$α$ forest: 3D full-shape analysis and cosmological constraints",
+    "title": "DESI DR1 Lyman-α forest: 3D full-shape analysis and cosmological constraints",
     "year": "2025",
     "type": "preprint",
     "authors": [
@@ -492,7 +492,7 @@ const publications = [
     "venue": "",
     "doi": "10.48550/arXiv.2509.15308",
     "url": "http://arxiv.org/abs/2509.15308",
-    "summary": "The paper fits the broadband shapes of DESI DR1 Lyα auto- and quasar cross-correlations, with blinded mock and split validation. It measures DM/DH at z=2.33 to about 1.6%, 2.4 times tighter than BAO alone, and combines with DR2 BAO to infer H0=68.3±1.6 km/s/Mpc in ΛCDM; fσ8 is reported but excluded from cosmology because mock validation is insufficient."
+    "summary": "The paper fits the broadband shapes of DESI DR1 Lyman-α auto- and quasar cross-correlations, with blinded mock and split validation. It measures DM/DH at z=2.33 to about 1.6%, 2.4 times tighter than BAO alone, and combines with DR2 BAO to infer H0=68.3±1.6 km/s/Mpc in ΛCDM; fσ8 is reported but excluded from cosmology because mock validation is insufficient."
   },
   {
     "key": "Q7DI85LJ",
@@ -691,11 +691,11 @@ const publications = [
     "venue": "",
     "doi": "10.48550/arXiv.2503.14738",
     "url": "http://arxiv.org/abs/2503.14738",
-    "summary": "DESI DR2 measures BAO from more than 14 million galaxies and quasars over three survey years and combines them with Lyα BAO. Flat ΛCDM describes the distances but is mildly discrepant with CMB-preferred parameters; evolving dark energy improves DESI+CMB by 3.1σ and by 2.8–4.2σ after adding different supernova samples, while ΛCDM gives Σmν<0.064 eV."
+    "summary": "DESI DR2 measures BAO from more than 14 million galaxies and quasars over three survey years and combines them with Lyman-α BAO. Flat ΛCDM describes the distances but is mildly discrepant with CMB-preferred parameters; evolving dark energy improves DESI+CMB by 3.1σ and by 2.8–4.2σ after adding different supernova samples, while ΛCDM gives Σmν<0.064 eV."
   },
   {
     "key": "A2U26R6Q",
-    "title": "DESI DR2 results. I. Baryon acoustic oscillations from the Lyman alpha forest",
+    "title": "DESI DR2 results. I. Baryon acoustic oscillations from the Lyman-α forest",
     "year": "2025",
     "type": "journalArticle",
     "authors": [
@@ -858,7 +858,7 @@ const publications = [
   },
   {
     "key": "MXDJRZE9",
-    "title": "ForestFlow: predicting the Lyman- α forest clustering from linear to nonlinear scales",
+    "title": "ForestFlow: predicting the Lyman-α forest clustering from linear to nonlinear scales",
     "year": "2025",
     "type": "journalArticle",
     "authors": [
@@ -900,7 +900,7 @@ const publications = [
     "venue": "Astronomy & Astrophysics",
     "doi": "10.1051/0004-6361/202452039",
     "url": "https://www.aanda.org/10.1051/0004-6361/202452039",
-    "summary": "ForestFlow uses conditional normalizing flows to predict Lyα large-scale biases and six nonlinear-correction parameters from cosmology and IGM physics, then combines them with a Boltzmann solver. Trained on 30 paired hydrodynamical simulations, it reproduces three-dimensional flux power to about 3% and one-dimensional power to 1.5% from linear scales to k=5 Mpc^-1, while generalizing to unseen ionization histories, neutrinos, and curvature."
+    "summary": "ForestFlow uses conditional normalizing flows to predict Lyman-α large-scale biases and six nonlinear-correction parameters from cosmology and IGM physics, then combines them with a Boltzmann solver. Trained on 30 paired hydrodynamical simulations, it reproduces three-dimensional flux power to about 3% and one-dimensional power to 1.5% from linear scales to k=5 Mpc^-1, while generalizing to unseen ionization histories, neutrinos, and curvature."
   },
   {
     "key": "2DGSPW2Y",
@@ -918,7 +918,7 @@ const publications = [
   },
   {
     "key": "HEXCGBJR",
-    "title": "Validation of the DESI DR2 Ly$α$ BAO analysis using synthetic datasets",
+    "title": "Validation of the DESI DR2 Lyman-α BAO analysis using synthetic datasets",
     "year": "2025",
     "type": "preprint",
     "authors": [
@@ -1024,11 +1024,11 @@ const publications = [
     "venue": "",
     "doi": "10.48550/arXiv.2503.14741",
     "url": "http://arxiv.org/abs/2503.14741",
-    "summary": "This paper validates the DR2 Lyα BAO pipeline with 400 mock realizations, including new CoLoRe-QL simulations that reproduce nonlinear BAO broadening. It also studies quasar-redshift errors and alternative damped-absorber masking choices, substantially extending the mock realism and statistical power beyond the DR1 validation."
+    "summary": "This paper validates the DR2 Lyman-α BAO pipeline with 400 mock realizations, including new CoLoRe-QL simulations that reproduce nonlinear BAO broadening. It also studies quasar-redshift errors and alternative damped-absorber masking choices, substantially extending the mock realism and statistical power beyond the DR1 validation."
   },
   {
     "key": "3VE89LGJ",
-    "title": "DESI 2024 IV: Baryon Acoustic Oscillations from the Lyman Alpha Forest",
+    "title": "DESI 2024 IV: Baryon Acoustic Oscillations from the Lyman-α Forest",
     "year": "2024",
     "type": "preprint",
     "authors": [
@@ -1236,7 +1236,7 @@ const publications = [
     "venue": "",
     "doi": "10.48550/arXiv.2404.03001",
     "url": "https://ui.adsabs.harvard.edu/abs/2024arXiv240403001D",
-    "summary": "The first-year DESI Lyα BAO analysis uses more than 420,000 forest spectra and over 700,000 quasars, with blinded methods validated on synthetic data and data splits. At z=2.33 it measures the Hubble rate to 2% and transverse comoving distance to 2.4%, providing a robust high-redshift expansion anchor."
+    "summary": "The first-year DESI Lyman-α BAO analysis uses more than 420,000 forest spectra and over 700,000 quasars, with blinded methods validated on synthetic data and data splits. At z=2.33 it measures the Hubble rate to 2% and transverse comoving distance to 2.4%, providing a robust high-redshift expansion anchor."
   },
   {
     "key": "DEJ9HS6D",
@@ -1450,7 +1450,7 @@ const publications = [
     "venue": "",
     "doi": "",
     "url": "http://arxiv.org/abs/2404.03002",
-    "summary": "Using more than six million DESI DR1 galaxies, quasars, and Lyα forests, this analysis measures BAO distances in seven bins over 0.1<z<4.2. Flat ΛCDM fits well, with DESI+CMB giving H0≈67.97 km/s/Mpc, while combinations with supernovae show a data-set-dependent 2.5–3.9σ preference for evolving dark energy and impose strong neutrino-mass limits."
+    "summary": "Using more than six million DESI DR1 galaxies, quasars, and Lyman-α forests, this analysis measures BAO distances in seven bins over 0.1<z<4.2. Flat ΛCDM fits well, with DESI+CMB giving H0≈67.97 km/s/Mpc, while combinations with supernovae show a data-set-dependent 2.5–3.9σ preference for evolving dark energy and impose strong neutrino-mass limits."
   },
   {
     "key": "BFQEUMF9",
@@ -1588,7 +1588,7 @@ const publications = [
     "venue": "Journal of Cosmology and Astroparticle Physics",
     "doi": "10.1088/1475-7516/2023/11/045",
     "url": "https://ui.adsabs.harvard.edu/abs/2023JCAP...11..045G",
-    "summary": "The first DESI Lyα three-dimensional analysis measures forest auto-correlation from 88,509 high-redshift quasars and forest–quasar cross-correlation using 147,899 tracers. A 13-parameter linear model fits well, detects the BAO peak at 3.8σ, and agrees with eBOSS despite using only a small fraction of the eventual DESI sample."
+    "summary": "The first DESI Lyman-α three-dimensional analysis measures forest auto-correlation from 88,509 high-redshift quasars and forest–quasar cross-correlation using 147,899 tracers. A 13-parameter linear model fits well, detects the BAO peak at 3.8σ, and agrees with eBOSS despite using only a small fraction of the eventual DESI sample."
   },
   {
     "key": "4YWA9RQD",
@@ -1604,7 +1604,7 @@ const publications = [
     "venue": "Monthly Notices of the Royal Astronomical Society",
     "doi": "10.1093/mnras/stad2512",
     "url": "https://academic.oup.com/mnras/article/525/3/3499/7246913",
-    "summary": "This paper emulates the Lyα one-dimensional flux power as a function of the amplitude and slope of the linear matter spectrum plus IGM parameters, rather than specific cosmological parameters. The neural network reaches sub-percent accuracy over z=2–4.5 and relevant scales and generalizes at roughly percent level to massive neutrinos, running, curvature, and unseen thermal or ionization histories."
+    "summary": "This paper emulates the Lyman-α one-dimensional flux power as a function of the amplitude and slope of the linear matter spectrum plus IGM parameters, rather than specific cosmological parameters. The neural network reaches sub-percent accuracy over z=2–4.5 and relevant scales and generalizes at roughly percent level to massive neutrinos, running, curvature, and unseen thermal or ionization histories."
   },
   {
     "key": "KAVB3DXR",
@@ -2438,7 +2438,7 @@ const publications = [
     "venue": "",
     "doi": "",
     "url": "http://adsabs.harvard.edu/abs/2016sf2a.conf..259P",
-    "summary": "The paper outlines WEAVE-QSO, a planned spectroscopic survey of roughly 400,000 high-redshift quasars designed primarily to map the intergalactic medium in absorption. It describes complementary deep-wide and bright samples, selected mainly with J-PAS and Gaia, and forecasts applications to Lyα-forest BAO, dark energy, neutrino mass, warm dark matter, absorber physics, and gas around galaxies. The planned sample would deliver about 350,000 faint Lyα-forest spectra over the J-PAS overlap plus a high-signal-to-noise bright-quasar component."
+    "summary": "The paper outlines WEAVE-QSO, a planned spectroscopic survey of roughly 400,000 high-redshift quasars designed primarily to map the intergalactic medium in absorption. It describes complementary deep-wide and bright samples, selected mainly with J-PAS and Gaia, and forecasts applications to Lyman-α forest BAO, dark energy, neutrino mass, warm dark matter, absorber physics, and gas around galaxies. The planned sample would deliver about 350,000 faint Lyman-α forest spectra over the J-PAS overlap plus a high-signal-to-noise bright-quasar component."
   },
   {
     "key": "RPKN2Y59",
@@ -2507,12 +2507,35 @@ const search = document.querySelector("#publication-search");
 const count = document.querySelector("#publication-count");
 const filters = [...document.querySelectorAll("[data-year]")];
 let activeYear = "all";
+let adsCitationRecords = [];
 
 const esc = value => String(value ?? "").replace(/[&<>\"']/g, char => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"}[char]));
 
 function authorLine(authors) {
   const visible = authors.length > 7 ? [...authors.slice(0, 6), "et al."] : authors;
   return visible.map(name => /chaves-montero/i.test(name) ? `<strong>${esc(name)}</strong>` : esc(name)).join(", ");
+}
+
+const normalizeDoi = value => String(value || "")
+  .trim()
+  .toLowerCase()
+  .replace(/^https?:\/\/(dx\.)?doi\.org\//, "");
+
+const normalizeTitle = value => String(value || "")
+  .toLowerCase()
+  .normalize("NFKD")
+  .replace(/[α]/g, "alpha")
+  .replace(/\\alpha|\$|[{}]/g, "")
+  .replace(/[^a-z0-9]+/g, " ")
+  .trim();
+
+function adsCitations(item) {
+  const doi = normalizeDoi(item.doi);
+  const title = normalizeTitle(item.title);
+  return adsCitationRecords.find(record =>
+    (doi && (record.dois || []).some(candidate => normalizeDoi(candidate) === doi)) ||
+    (title && normalizeTitle(record.title) === title)
+  );
 }
 
 function render() {
@@ -2525,12 +2548,19 @@ function render() {
   count.textContent = `${shown.length} publication${shown.length === 1 ? "" : "s"}`;
   list.innerHTML = shown.map(item => {
     const href = item.doi ? `https://doi.org/${encodeURIComponent(item.doi)}` : item.url;
+    const adsRecord = adsCitations(item);
+    const citationLabel = adsRecord
+      ? `${new Intl.NumberFormat("en-US").format(adsRecord.citations)} citation${adsRecord.citations === 1 ? "" : "s"}`
+      : "ADS record unavailable";
     return `<article class="publication-card">
       <div class="publication-meta"><span>${esc(item.year)}</span><span>${esc(item.venue || item.type.replace(/([A-Z])/g, " $1"))}</span></div>
       <h2>${href ? `<a href="${esc(href)}">${esc(item.title)}</a>` : esc(item.title)}</h2>
       <p class="publication-authors">${authorLine(item.authors)}</p>
       <p class="publication-summary">${esc(item.summary)}</p>
-      ${href ? `<a class="publication-link" href="${esc(href)}">View publication <span aria-hidden="true">↗</span></a>` : ""}
+      <div class="publication-footer">
+        ${href ? `<a class="publication-link" href="${esc(href)}">View publication <span aria-hidden="true">↗</span></a>` : "<span></span>"}
+        <span class="publication-citations${adsRecord ? "" : " unavailable"}" title="Citation count from NASA/ADS">${esc(citationLabel)}</span>
+      </div>
     </article>`;
   }).join("");
 }
@@ -2542,3 +2572,14 @@ filters.forEach(button => button.addEventListener("click", () => {
   render();
 }));
 render();
+
+fetch("../data/ads-profile.json", {cache: "no-store"})
+  .then(response => {
+    if (!response.ok) throw new Error("ADS snapshot unavailable");
+    return response.json();
+  })
+  .then(profile => {
+    adsCitationRecords = Array.isArray(profile.publication_citations) ? profile.publication_citations : [];
+    render();
+  })
+  .catch(() => {});
