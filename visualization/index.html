@@ -1,84 +1,50 @@
 <!DOCTYPE html><html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>jchavesmontero</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-    <script src="https://unpkg.com/magic-grid/dist/magic-grid.min.js"></script>
-    <link rel="stylesheet" href="../index.css">
-    <link rel="icon" href="https://avatars.githubusercontent.com/u/35238605?v=4" type="image/png">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  </head>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery · Jonás Chaves-Montero</title>
+  <meta name="description" content="Scientific visualizations and selected imagery from the research of Jonás Chaves-Montero.">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" crossorigin="anonymous">
+  <link rel="stylesheet" href="../index.css">
+  <link rel="icon" href="https://avatars.githubusercontent.com/u/35238605?v=4" type="image/png">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+  <div id="lpanel-placeholder"></div>
+  <div id="display">
+    <div id="nav-placeholder"></div>
+    <main id="work" class="gallery-page">
+      <p class="eyebrow">Gallery</p>
+      <h1>Visualizing the Universe</h1>
+      <p class="intro">Scientific films and imagery built from cosmological simulations, survey predictions, and the structures that connect galaxies to dark matter.</p>
 
-  <body>
-    <div id="lpanel-placeholder"></div>
+      <section class="gallery-grid">
+        <article class="gallery-card gallery-card-video">
+          <div class="gallery-media">
+            <iframe src="https://www.youtube.com/embed/I0D7_0Kus8g?start=13" title="Flying Through the SPHEREx Sky" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <div class="gallery-copy">
+            <p class="eyebrow">Scientific film · 2018</p>
+            <h2>Flying Through the SPHEREx Sky</h2>
+            <p>Created at Argonne National Laboratory for the selection of <a href="https://www.jpl.nasa.gov/missions/spherex">NASA’s SPHEREx mission</a>, this journey moves through the galaxies SPHEREx was designed to observe. The movie draws on the trillion-particle Outer Rim cosmological simulation.</p>
+          </div>
+        </article>
 
-    <div id="display">
-      <div id="nav-placeholder"></div>
-
-      <div id="work">
-        <h1 style="font-family:verdana">Flying Through the SPHEREx Sky</h1>
-        <p style="font-family:verdana;font-size:100%"> 
-          In 2018, we made the following movie at the Argonne National Laboratory for the acceptance of <a href="https://www.jpl.nasa.gov/missions/spherex">SPHEREx</a> as a MIDEX NASA project (and it got accepted!). In this movie, we fly through the distribution of galaxies that SPHEREx will observe. As the movie advances, we get increasingly farther away from Earth, observing galaxies that populated the distant universe. The inset shows the path of the observer through the simulation lightcone. This movie is based on the trillion-particle Outer Rim simulation carried out with <a href="https://cpac.hep.anl.gov/projects/hacc/#:~:text=HACC%20(Hardware%2FHybrid%20Accelerated%20Cosmology,Award%20Finalist%202012%2C%202013)">HACC</a>.
-        </p>
-        <div>
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/I0D7_0Kus8g?start=13" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
-        </div>
-
-        <h1 style="font-family:verdana">Cover of HEP report on dark matter</h1>
-        <p style="font-family:verdana;font-size:100%">
-          Patricia Larsen and I made the cover of the "Report of the US Department of Energy's High Energy Physics Workshop on Dark Matter" (<a href="https://www.osti.gov/servlets/purl/1659757">link</a>). The cover shows a halo from the cosmological gravity-only simulation Outer Rim hosting a galaxy observed by the Hubble Space Telescope.
-        </p>
-
-        <img width="560" src="cover.jpg" alt="HEP report on DM cover">
-            
-        <div id="foot-placeholder"></div>
-        
-      </div>
-    </div>
-
-    <script>
-      $.get("../nav.html", function(data){
-          $("#nav-placeholder").replaceWith(data);
-      });
-      $.get("../lpanel.html", function(data){
-          $("#lpanel-placeholder").replaceWith(data);
-      });
-      $.get("../foot.html", function(data){
-          $("#foot-placeholder").replaceWith(data);
-      });
-    </script> 
-
-    <script>
-      const magicProjectsGrid = new MagicGrid({
-        container: "#work_section",
-        animate: false,
-        gutter: 30, // default gutter size
-        static: true,
-        useMin: false,
-        maxColumns: 2,
-        useTransform: true
-      });
-
-      const magicForksGrid = new MagicGrid({
-        container: "#forks_section",
-        animate: false,
-        gutter: 30, // default gutter size
-        static: true,
-        useMin: false,
-        maxColumns: 2,
-        useTransform: true
-      });
-
-      $("document").ready(() => {
-        magicProjectsGrid.listen();
-        magicForksGrid.listen();
-      });
-    </script>
-  
-  </body>
-</html>
-
+        <article class="gallery-card">
+          <div class="gallery-media gallery-image"><img src="cover.jpg" alt="Cover of the US Department of Energy High Energy Physics report on dark matter"></div>
+          <div class="gallery-copy">
+            <p class="eyebrow">Scientific artwork</p>
+            <h2>Dark matter across scales</h2>
+            <p>Created with Patricia Larsen for the <a href="https://www.osti.gov/servlets/purl/1659757">US Department of Energy High Energy Physics report on dark matter</a>. The cover combines a halo from the Outer Rim simulation with a galaxy observed by the Hubble Space Telescope.</p>
+          </div>
+        </article>
+      </section>
+      <div id="foot-placeholder"></div>
+    </main>
+  </div>
+  <script>
+    $.get("../nav.html", data => $("#nav-placeholder").replaceWith(data));
+    $.get("../lpanel.html", data => $("#lpanel-placeholder").replaceWith(data));
+    $.get("../foot.html", data => $("#foot-placeholder").replaceWith(data));
+  </script>
+</body></html>
