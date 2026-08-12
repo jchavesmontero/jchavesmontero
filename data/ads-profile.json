@@ -5,5 +5,820 @@
   "updated": "2026-08-12",
   "estimated": false,
   "source": "NASA/ADS",
-  "profile_url": "https://ui.adsabs.harvard.edu/search/fq=%7B!type%3Daqp%20v%3D%24fq_database%7D&fq_database=(database%3Aastronomy%20OR%20database%3Aphysics)&q=%20author%3A%22chaves-montero%2C%20j.%22&sort=date%20desc%2C%20bibcode%20desc/metrics"
+  "profile_url": "https://ui.adsabs.harvard.edu/search/fq=%7B!type%3Daqp%20v%3D%24fq_database%7D&fq_database=(database%3Aastronomy%20OR%20database%3Aphysics)&q=%20author%3A%22chaves-montero%2C%20j.%22&sort=date%20desc%2C%20bibcode%20desc/metrics",
+  "publication_citations": [
+    {
+      "bibcode": "2026A&A...712A..90E",
+      "title": "Euclid: VIII. Populating a dark universe using SciPIC",
+      "dois": [
+        "10.1051/0004-6361/202660445"
+      ],
+      "citations": 0
+    },
+    {
+      "bibcode": "2026arXiv260727413C",
+      "title": "Lyman-$α$ forest holography: 3D predictions from 1D measurements",
+      "dois": [
+        "10.48550/arXiv.2607.27413"
+      ],
+      "citations": 0
+    },
+    {
+      "bibcode": "2026arXiv260727412R",
+      "title": "CoLoRe-2LPT: Lyman-$α$ mock catalogues for the validation of DESI cosmological analyses",
+      "dois": [
+        "10.48550/arXiv.2607.27412"
+      ],
+      "citations": 0
+    },
+    {
+      "bibcode": "2026arXiv260727411H",
+      "title": "Validation of the DESI DR2 Ly$α$ forest full-shape analysis",
+      "dois": [
+        "10.48550/arXiv.2607.27411"
+      ],
+      "citations": 0
+    },
+    {
+      "bibcode": "2026arXiv260727410D",
+      "title": "DESI DR2 Results IV: Alcock-Paczyński Measurements from the Lyman Alpha Forest and Cosmological Constraints",
+      "dois": [
+        "10.48550/arXiv.2607.27410"
+      ],
+      "citations": 0
+    },
+    {
+      "bibcode": "2026JCAP...06..040C",
+      "title": "Cosmological analysis of the DESI DR1 Lyα 1D power spectrum",
+      "dois": [
+        "10.1088/1475-7516/2026/06/040",
+        "10.48550/arXiv.2601.21432"
+      ],
+      "citations": 10
+    },
+    {
+      "bibcode": "2026arXiv260522489C",
+      "title": "Machine Learning Techniques for Astrophysics and Cosmology: Lyman-$α$ forest",
+      "dois": [
+        "10.48550/arXiv.2605.22489"
+      ],
+      "citations": 0
+    },
+    {
+      "bibcode": "2026AJ....171..285D",
+      "title": "Data Release 1 of the Dark Energy Spectroscopic Instrument",
+      "dois": [
+        "10.3847/1538-3881/ae4c43",
+        "10.48550/arXiv.2503.14745"
+      ],
+      "citations": 515
+    },
+    {
+      "bibcode": "2026arXiv260419449O",
+      "title": "Cosmological constraints from the small scale clustering of Emission Line Galaxies",
+      "dois": [
+        "10.48550/arXiv.2604.19449"
+      ],
+      "citations": 2
+    },
+    {
+      "bibcode": "2026arXiv260414802E",
+      "title": "Euclid. Populating a dark universe with galaxies using SciPIC",
+      "dois": [
+        "10.48550/arXiv.2604.14802"
+      ],
+      "citations": 0
+    },
+    {
+      "bibcode": "2026arXiv260213902L",
+      "title": "J-PAS: Semi-Supervised Sim-to-Obs Transfer for Robust Star--Galaxy--Quasar Classification",
+      "dois": [
+        "10.48550/arXiv.2602.13902"
+      ],
+      "citations": 2
+    },
+    {
+      "bibcode": "2026JCAP...02E..02A",
+      "title": "Erratum: DESI 2024 V: Full-Shape Galaxy Clustering from Galaxies and Quasars",
+      "dois": [
+        "10.1088/1475-7516/2026/02/E02"
+      ],
+      "citations": 0
+    },
+    {
+      "bibcode": "2026A&A...706A.377G",
+      "title": "The dependence of galaxy assembly bias on the selection criteria, number density, and redshift of galaxy samples",
+      "dois": [
+        "10.1051/0004-6361/202555093",
+        "10.48550/arXiv.2504.06770"
+      ],
+      "citations": 2
+    },
+    {
+      "bibcode": "2026PhRvD.113b3520C",
+      "title": "Validation of the DESI DR2 <inline-formula><mml:math><mml:mi>Ly</mml:mi><mml:mi>α</mml:mi></mml:math></inline-formula> BAO analysis using synthetic datasets",
+      "dois": [
+        "10.1103/fvgh-kswf",
+        "10.48550/arXiv.2503.14741"
+      ],
+      "citations": 24
+    },
+    {
+      "bibcode": "2025JCAP...11..079R",
+      "title": "DESI DR1 Lyα 1D power spectrum: the Fast Fourier Transform estimator measurement",
+      "dois": [
+        "10.1088/1475-7516/2025/11/079",
+        "10.48550/arXiv.2505.09493"
+      ],
+      "citations": 13
+    },
+    {
+      "bibcode": "2025PhRvD.112h3515A",
+      "title": "DESI DR2 results. II. Measurements of baryon acoustic oscillations and cosmological constraints",
+      "dois": [
+        "10.1103/tr6y-kpc6",
+        "10.48550/arXiv.2503.14738"
+      ],
+      "citations": 1334
+    },
+    {
+      "bibcode": "2025PhRvD.112h3514A",
+      "title": "DESI DR2 results. I. Baryon acoustic oscillations from the Lyman alpha forest",
+      "dois": [
+        "10.1103/2wwn-xjm5",
+        "10.48550/arXiv.2503.14739"
+      ],
+      "citations": 247
+    },
+    {
+      "bibcode": "2025PhRvD.112h3513E",
+      "title": "Constraints on neutrino physics from DESI DR2 BAO and DR1 full shape",
+      "dois": [
+        "10.1103/w9pk-xsk7",
+        "10.48550/arXiv.2503.14744"
+      ],
+      "citations": 153
+    },
+    {
+      "bibcode": "2025PhRvD.112h3512A",
+      "title": "Validation of the DESI DR2 measurements of baryon acoustic oscillations from galaxies and quasars",
+      "dois": [
+        "10.1103/kdys-w8vl",
+        "10.48550/arXiv.2503.14742"
+      ],
+      "citations": 62
+    },
+    {
+      "bibcode": "2025PhRvD.112h3511L",
+      "title": "Extended dark energy analysis using DESI DR2 BAO measurements",
+      "dois": [
+        "10.1103/w4c6-1r5j",
+        "10.48550/arXiv.2503.14743"
+      ],
+      "citations": 394
+    },
+    {
+      "bibcode": "2025PhRvD.112h3510B",
+      "title": "Construction of the damped <inline-formula><mml:math><mml:mrow><mml:mi>Ly</mml:mi><mml:mi>α</mml:mi></mml:mrow></mml:math></inline-formula> absorber catalog for DESI DR2 <inline-formula><mml:math><mml:mrow><mml:mrow><mml:mrow><mml:mi>Ly</mml:mi><mml:mi>α</mml:mi></mml:mrow></mml:mrow></mml:mrow></mml:math></inline-formula> BAO",
+      "dois": [
+        "10.1103/wxyv-46kb",
+        "10.48550/arXiv.2503.14740"
+      ],
+      "citations": 24
+    },
+    {
+      "bibcode": "2025JCAP...10..004K",
+      "title": "DESI DR1 Lyα 1D power spectrum: the optimal estimator measurement",
+      "dois": [
+        "10.1088/1475-7516/2025/10/004",
+        "10.48550/arXiv.2505.07974"
+      ],
+      "citations": 14
+    },
+    {
+      "bibcode": "2025A&A...702A.155D",
+      "title": "Euclid: Photometric redshift calibration performance with the clustering-redshifts technique in the Flagship 2 simulation",
+      "dois": [
+        "10.1051/0004-6361/202555551",
+        "10.48550/arXiv.2505.10416"
+      ],
+      "citations": 17
+    },
+    {
+      "bibcode": "2025arXiv250915308C",
+      "title": "DESI DR1 Ly$α$ forest: 3D full-shape analysis and cosmological constraints",
+      "dois": [
+        "10.48550/arXiv.2509.15308"
+      ],
+      "citations": 19
+    },
+    {
+      "bibcode": "2025JCAP...09..008A",
+      "title": "DESI 2024 V: Full-Shape galaxy clustering from galaxies and quasars",
+      "dois": [
+        "10.1088/1475-7516/2025/09/008",
+        "10.48550/arXiv.2411.12021"
+      ],
+      "citations": 177
+    },
+    {
+      "bibcode": "2025OJAp....8E..94H",
+      "title": "J-PLUS: Tomographic analysis of galaxy angular density and redshift fluctuations in Data Release 3. Constraints on photo- z errors, linear bias, and peculiar velocities",
+      "dois": [
+        "10.33232/001c.142149",
+        "10.48550/arXiv.2412.14826"
+      ],
+      "citations": 2
+    },
+    {
+      "bibcode": "2025OJAp....8E..93H",
+      "title": "The J-PLUS collaboration. Additive versus multiplicative systematics in surveys of the large scale structure of the Universe",
+      "dois": [
+        "10.33232/001c.142148",
+        "10.48550/arXiv.2412.14827"
+      ],
+      "citations": 0
+    },
+    {
+      "bibcode": "2025JCAP...07..028A",
+      "title": "DESI 2024 VII: cosmological constraints from the full-shape modeling of clustering measurements",
+      "dois": [
+        "10.1088/1475-7516/2025/07/028",
+        "10.48550/arXiv.2411.12022"
+      ],
+      "citations": 325
+    },
+    {
+      "bibcode": "2025JCAP...07..017A",
+      "title": "DESI 2024 II: sample definitions, characteristics, and two-point clustering statistics",
+      "dois": [
+        "10.1088/1475-7516/2025/07/017",
+        "10.48550/arXiv.2411.12020"
+      ],
+      "citations": 127
+    },
+    {
+      "bibcode": "2025hsa..conf....7C",
+      "title": "ForestFlow: cosmological emulation of Lyman-α forest clustering from linear to nonlinear scales",
+      "dois": [],
+      "citations": 0
+    },
+    {
+      "bibcode": "2025A&A...697A.226O",
+      "title": "Investigating the galaxy─halo connection of DESI emission-line galaxies with SHAMe-SF",
+      "dois": [
+        "10.1051/0004-6361/202453086",
+        "10.48550/arXiv.2411.11830"
+      ],
+      "citations": 13
+    },
+    {
+      "bibcode": "2025JCAP...04..012A",
+      "title": "DESI 2024 III: baryon acoustic oscillations from galaxies and quasars",
+      "dois": [
+        "10.1088/1475-7516/2025/04/012",
+        "10.48550/arXiv.2404.03000"
+      ],
+      "citations": 539
+    },
+    {
+      "bibcode": "2025JCAP...02..021A",
+      "title": "DESI 2024 VI: cosmological constraints from the measurements of baryon acoustic oscillations",
+      "dois": [
+        "10.1088/1475-7516/2025/02/021",
+        "10.48550/arXiv.2404.03002"
+      ],
+      "citations": 1748
+    },
+    {
+      "bibcode": "2025A&A...694A.187C",
+      "title": "ForestFlow: predicting the Lyman-α forest clustering from linear to nonlinear scales",
+      "dois": [
+        "10.1051/0004-6361/202452039",
+        "10.48550/arXiv.2409.05682"
+      ],
+      "citations": 4
+    },
+    {
+      "bibcode": "2025JCAP...01..141H",
+      "title": "Synthetic spectra for Lyman-α forest analysis in the Dark Energy Spectroscopic Instrument",
+      "dois": [
+        "10.1088/1475-7516/2025/01/141",
+        "10.48550/arXiv.2401.00303"
+      ],
+      "citations": 31
+    },
+    {
+      "bibcode": "2025JCAP...01..130B",
+      "title": "Impact of systematic redshift errors on the cross-correlation of the Lyman-α forest with quasars at small scales using DESI Early Data",
+      "dois": [
+        "10.1088/1475-7516/2025/01/130",
+        "10.48550/arXiv.2402.18009"
+      ],
+      "citations": 23
+    },
+    {
+      "bibcode": "2025JCAP...01..124A",
+      "title": "DESI 2024 IV: Baryon Acoustic Oscillations from the Lyman alpha forest",
+      "dois": [
+        "10.1088/1475-7516/2025/01/124",
+        "10.48550/arXiv.2404.03001"
+      ],
+      "citations": 382
+    },
+    {
+      "bibcode": "2024ascl.soft12022C",
+      "title": "ForestFlow: Lyman-alpha cosmology emulator",
+      "dois": [],
+      "citations": 0
+    },
+    {
+      "bibcode": "2024A&A...690A.311C",
+      "title": "Validating the clustering predictions of empirical models with the FLAMINGO simulations",
+      "dois": [
+        "10.1051/0004-6361/202451671",
+        "10.48550/arXiv.2407.18912"
+      ],
+      "citations": 10
+    },
+    {
+      "bibcode": "2024AJ....168...58D",
+      "title": "The Early Data Release of the Dark Energy Spectroscopic Instrument",
+      "dois": [
+        "10.3847/1538-3881/ad3217",
+        "10.48550/arXiv.2306.06308"
+      ],
+      "citations": 557
+    },
+    {
+      "bibcode": "2024A&A...687A.285A",
+      "title": "The miniJPAS Survey: The radial distribution of star formation rates in faint X-ray active galactic nuclei",
+      "dois": [
+        "10.1051/0004-6361/202449287",
+        "10.48550/arXiv.2405.06010"
+      ],
+      "citations": 7
+    },
+    {
+      "bibcode": "2024A&A...684A..61H",
+      "title": "The miniJPAS survey: Maximising the photo-z accuracy from multi-survey datasets with probability conflation",
+      "dois": [
+        "10.1051/0004-6361/202348513",
+        "10.48550/arXiv.2311.04220"
+      ],
+      "citations": 5
+    },
+    {
+      "bibcode": "2024MNRAS.528.6666R",
+      "title": "The Lyman-α forest catalogue from the Dark Energy Spectroscopic Instrument Early Data Release",
+      "dois": [
+        "10.1093/mnras/stad3781",
+        "10.48550/arXiv.2306.06312"
+      ],
+      "citations": 48
+    },
+    {
+      "bibcode": "2024MNRAS.528.3941K",
+      "title": "Optimal 1D Ly α forest power spectrum estimation - III. DESI early data",
+      "dois": [
+        "10.1093/mnras/stae171",
+        "10.48550/arXiv.2306.06316"
+      ],
+      "citations": 55
+    },
+    {
+      "bibcode": "2024A&A...683A.120P",
+      "title": "Active galactic nuclei and gravitational redshifts",
+      "dois": [
+        "10.1051/0004-6361/202348146",
+        "10.48550/arXiv.2304.13036"
+      ],
+      "citations": 1
+    },
+    {
+      "bibcode": "2024AJ....167...62D",
+      "title": "Validation of the Scientific Program for the Dark Energy Spectroscopic Instrument",
+      "dois": [
+        "10.3847/1538-3881/ad0b08",
+        "10.48550/arXiv.2306.06307"
+      ],
+      "citations": 297
+    },
+    {
+      "bibcode": "2024MNRAS.527.5868M",
+      "title": "Tracking the evolution of satellite galaxies: mass stripping and dark-matter deficient galaxies",
+      "dois": [
+        "10.1093/mnras/stad3268",
+        "10.48550/arXiv.2212.12090"
+      ],
+      "citations": 19
+    },
+    {
+      "bibcode": "2023MNRAS.526.5118R",
+      "title": "The Dark Energy Spectroscopic Instrument: one-dimensional power spectrum from first Ly α forest samples with Fast Fourier Transform",
+      "dois": [
+        "10.1093/mnras/stad3008",
+        "10.48550/arXiv.2306.06311"
+      ],
+      "citations": 56
+    },
+    {
+      "bibcode": "2023MNRAS.525.3499C",
+      "title": "A neural network emulator for the Lyman-α forest 1D flux power spectrum",
+      "dois": [
+        "10.1093/mnras/stad2512",
+        "10.48550/arXiv.2305.19064"
+      ],
+      "citations": 23
+    },
+    {
+      "bibcode": "2023JCAP...11..045G",
+      "title": "3D correlations in the Lyman-α forest from early DESI data",
+      "dois": [
+        "10.1088/1475-7516/2023/11/045",
+        "10.48550/arXiv.2308.10950"
+      ],
+      "citations": 30
+    },
+    {
+      "bibcode": "2023MNRAS.525.3149C",
+      "title": "Consistent clustering and lensing of SDSS-III BOSS galaxies with an extended abundance matching formalism",
+      "dois": [
+        "10.1093/mnras/stad2434",
+        "10.48550/arXiv.2305.09637"
+      ],
+      "citations": 25
+    },
+    {
+      "bibcode": "2023A&A...678A.144P",
+      "title": "The miniJPAS survey quasar selection. IV. Classification and redshift estimation with SQUEzE",
+      "dois": [
+        "10.1051/0004-6361/202347488",
+        "10.48550/arXiv.2309.00461"
+      ],
+      "citations": 4
+    },
+    {
+      "bibcode": "2023mgm..conf.2345C",
+      "title": "A nearly complete census of intergalactic gas using the kinematic Sunyaev-Zel'dovich effect",
+      "dois": [
+        "10.1142/9789811269776_0182"
+      ],
+      "citations": 0
+    },
+    {
+      "bibcode": "2023eas..conf.1083C",
+      "title": "On the origin of the lensing-is-low problem",
+      "dois": [],
+      "citations": 0
+    },
+    {
+      "bibcode": "2023MNRAS.521.1741H",
+      "title": "DSPS: Differentiable stellar population synthesis",
+      "dois": [
+        "10.1093/mnras/stad456",
+        "10.48550/arXiv.2112.06830"
+      ],
+      "citations": 39
+    },
+    {
+      "bibcode": "2023MNRAS.521..937C",
+      "title": "The galaxy formation origin of the lensing is low problem",
+      "dois": [
+        "10.1093/mnras/stad243",
+        "10.48550/arXiv.2211.01744"
+      ],
+      "citations": 37
+    },
+    {
+      "bibcode": "2023A&A...673A.103M",
+      "title": "The miniJPAS survey quasar selection. III. Classification with artificial neural networks and hybridisation",
+      "dois": [
+        "10.1051/0004-6361/202245750",
+        "10.48550/arXiv.2303.12684"
+      ],
+      "citations": 13
+    },
+    {
+      "bibcode": "2023MNRAS.520.3494R",
+      "title": "The miniJPAS survey quasar selection - II. Machine learning classification with photometric measurements and uncertainties",
+      "dois": [
+        "10.1093/mnras/stac2836",
+        "10.48550/arXiv.2303.00489"
+      ],
+      "citations": 15
+    },
+    {
+      "bibcode": "2023MNRAS.520.3476Q",
+      "title": "The miniJPAS survey quasar selection - I. Mock catalogues for classification",
+      "dois": [
+        "10.1093/mnras/stac2962",
+        "10.48550/arXiv.2202.00103"
+      ],
+      "citations": 18
+    },
+    {
+      "bibcode": "2023A&A...672A.137L",
+      "title": "The miniJPAS survey: AGN and host galaxy coevolution of X-ray-selected sources",
+      "dois": [
+        "10.1051/0004-6361/202245168",
+        "10.48550/arXiv.2302.01358"
+      ],
+      "citations": 24
+    },
+    {
+      "bibcode": "2023yCat..36720137L",
+      "title": "VizieR Online Data Catalog: AGN and host galaxy co-evolution (Lopez+, 2023)",
+      "dois": [],
+      "citations": 0
+    },
+    {
+      "bibcode": "2023MNRAS.520..489C",
+      "title": "Consistent and simultaneous modelling of galaxy clustering and galaxy-galaxy lensing with subhalo abundance matching",
+      "dois": [
+        "10.1093/mnras/stad122",
+        "10.48550/arXiv.2211.11745"
+      ],
+      "citations": 23
+    },
+    {
+      "bibcode": "2023A&A...671A..71H",
+      "title": "J-NEP: 60-band photometry and photometric redshifts for the James Webb Space Telescope North Ecliptic Pole Time-Domain Field",
+      "dois": [
+        "10.1051/0004-6361/202244759",
+        "10.48550/arXiv.2301.09623"
+      ],
+      "citations": 13
+    },
+    {
+      "bibcode": "2023ascl.soft02025H",
+      "title": "Diffmah: Differentiable models of halo and galaxy formation history",
+      "dois": [],
+      "citations": 0
+    },
+    {
+      "bibcode": "2023ascl.soft02024H",
+      "title": "DSPS: Differentiable Stellar Population Synthesis",
+      "dois": [],
+      "citations": 0
+    },
+    {
+      "bibcode": "2023ascl.soft02012A",
+      "title": "Diffstar: Differentiable star formation histories",
+      "dois": [],
+      "citations": 0
+    },
+    {
+      "bibcode": "2023MNRAS.518..562A",
+      "title": "Diffstar: a fully parametric physical model for galaxy assembly history",
+      "dois": [
+        "10.1093/mnras/stac3118",
+        "10.48550/arXiv.2205.04273"
+      ],
+      "citations": 40
+    },
+    {
+      "bibcode": "2022MNRAS.517.2000L",
+      "title": "The cosmology dependence of the concentration-mass-redshift relation",
+      "dois": [
+        "10.1093/mnras/stac2785",
+        "10.48550/arXiv.2207.13718"
+      ],
+      "citations": 13
+    },
+    {
+      "bibcode": "2022A&A...668A...8L",
+      "title": "TOPz: Photometric redshifts for J-PAS",
+      "dois": [
+        "10.1051/0004-6361/202243881",
+        "10.48550/arXiv.2209.01040"
+      ],
+      "citations": 20
+    },
+    {
+      "bibcode": "2022MNRAS.515.1927R",
+      "title": "Machine learning synthetic spectra for probabilistic redshift estimation: SYTH-Z",
+      "dois": [
+        "10.1093/mnras/stac1790",
+        "10.48550/arXiv.2111.12118"
+      ],
+      "citations": 11
+    },
+    {
+      "bibcode": "2022JCAP...09..038L",
+      "title": "Relativistic angular redshift fluctuations embedded in large scale varying gravitational potentials",
+      "dois": [
+        "10.1088/1475-7516/2022/09/038",
+        "10.48550/arXiv.2203.15008"
+      ],
+      "citations": 2
+    },
+    {
+      "bibcode": "2022A&A...665A..95I",
+      "title": "The miniJPAS survey: A search for extreme emission-line galaxies",
+      "dois": [
+        "10.1051/0004-6361/202243931"
+      ],
+      "citations": 19
+    },
+    {
+      "bibcode": "2022eas..conf.2308C",
+      "title": "Impact of galaxy selection criteria on assembly bias",
+      "dois": [],
+      "citations": 0
+    },
+    {
+      "bibcode": "2022eas..conf.1508L",
+      "title": "Synthetic galaxy catalog for J-PAS",
+      "dois": [],
+      "citations": 0
+    },
+    {
+      "bibcode": "2022A&A...661A..99M",
+      "title": "The miniJPAS survey: Identification and characterization of the emission line galaxies down to z &lt; 0.35 in the AEGIS field",
+      "dois": [
+        "10.1051/0004-6361/202142812",
+        "10.48550/arXiv.2204.01698"
+      ],
+      "citations": 24
+    },
+    {
+      "bibcode": "2022A&A...660A..95C",
+      "title": "Black hole virial masses from single-epoch photometry. The miniJPAS test case",
+      "dois": [
+        "10.1051/0004-6361/202142567",
+        "10.48550/arXiv.2111.01180"
+      ],
+      "citations": 10
+    },
+    {
+      "bibcode": "2021MNRAS.508..940M",
+      "title": "On the influence of halo mass accretion history on galaxy properties and assembly bias",
+      "dois": [
+        "10.1093/mnras/stab2556",
+        "10.48550/arXiv.2105.05274"
+      ],
+      "citations": 47
+    },
+    {
+      "bibcode": "2021MNRAS.507.3412C",
+      "title": "The cosmological dependence of halo and galaxy assembly bias",
+      "dois": [
+        "10.1093/mnras/stab2367",
+        "10.48550/arXiv.2105.05854"
+      ],
+      "citations": 30
+    },
+    {
+      "bibcode": "2021A&A...654A.101H",
+      "title": "The miniJPAS survey: Photometric redshift catalogue",
+      "dois": [
+        "10.1051/0004-6361/202141236",
+        "10.48550/arXiv.2108.03271"
+      ],
+      "citations": 42
+    },
+    {
+      "bibcode": "2021MNRAS.506.2373C",
+      "title": "Surrogate modelling the Baryonic Universe II: On forward modelling the colours of individual and populations of galaxies",
+      "dois": [
+        "10.1093/mnras/stab1831",
+        "10.48550/arXiv.2105.05853"
+      ],
+      "citations": 21
+    },
+    {
+      "bibcode": "2021A&A...653A..31B",
+      "title": "The miniJPAS survey: A preview of the Universe in 56 colors",
+      "dois": [
+        "10.1051/0004-6361/202038841",
+        "10.48550/arXiv.2007.01910"
+      ],
+      "citations": 148
+    },
+    {
+      "bibcode": "2021OJAp....4E...7H",
+      "title": "A Differentiable Model of the Assembly of Individual and Populations of Dark Matter Halos",
+      "dois": [
+        "10.21105/astro.2105.05859",
+        "10.48550/arXiv.2105.05859"
+      ],
+      "citations": 39
+    },
+    {
+      "bibcode": "2021MNRAS.503L..62H",
+      "title": "Tomographic constraints on gravity from angular redshift fluctuations in the late Universe",
+      "dois": [
+        "10.1093/mnrasl/slab021",
+        "10.48550/arXiv.2005.06568"
+      ],
+      "citations": 11
+    },
+    {
+      "bibcode": "2021MNRAS.503L..56H",
+      "title": "Density weighted angular redshift fluctuations: a new cosmological observable",
+      "dois": [
+        "10.1093/mnrasl/slaa172",
+        "10.48550/arXiv.1911.12056"
+      ],
+      "citations": 17
+    },
+    {
+      "bibcode": "2021MNRAS.503.1798C",
+      "title": "Measuring the evolution of intergalactic gas from z = 0 to 5 using the kinematic Sunyaev-Zel'dovich effect",
+      "dois": [
+        "10.1093/mnras/staa3782",
+        "10.48550/arXiv.1911.10690"
+      ],
+      "citations": 33
+    },
+    {
+      "bibcode": "2020MNRAS.495.2088C",
+      "title": "Surrogate modelling the Baryonic Universe - I. The colour of star formation",
+      "dois": [
+        "10.1093/mnras/staa1230",
+        "10.48550/arXiv.1910.11883"
+      ],
+      "citations": 29
+    },
+    {
+      "bibcode": "2018MNRAS.477.3892C",
+      "title": "The effect of photometric redshift uncertainties on galaxy clustering and baryonic acoustic oscillations",
+      "dois": [
+        "10.1093/mnras/sty924",
+        "10.48550/arXiv.1610.09688"
+      ],
+      "citations": 33
+    },
+    {
+      "bibcode": "2018A&A...614A.129V",
+      "title": "High redshift galaxies in the ALHAMBRA survey. II. Strengthening the evidence of bright-end excess in UV luminosity functions at 2.5 ≤ z≤ 4.5 by PDF analysis",
+      "dois": [
+        "10.1051/0004-6361/201731797",
+        "10.48550/arXiv.1712.01028"
+      ],
+      "citations": 11
+    },
+    {
+      "bibcode": "2018arXiv180505489D",
+      "title": "Science Impacts of the SPHEREx All-Sky Optical to Near-Infrared Spectral Survey II: Report of a Community Workshop on the Scientific Synergies Between the SPHEREx Survey and Other Astronomy Observatories",
+      "dois": [
+        "10.48550/arXiv.1805.05489"
+      ],
+      "citations": 158
+    },
+    {
+      "bibcode": "2017MNRAS.472.2085C",
+      "title": "ELDAR, a new method to identify AGN in multi-filter surveys: the ALHAMBRA test case",
+      "dois": [
+        "10.1093/mnras/stx2054",
+        "10.48550/arXiv.1707.07690"
+      ],
+      "citations": 14
+    },
+    {
+      "bibcode": "2017yCat..74722085C",
+      "title": "VizieR Online Data Catalog: ALHAMBRA fields type-I AGN with ELDAR (Chaves-Montero+, 2017)",
+      "dois": [],
+      "citations": 0
+    },
+    {
+      "bibcode": "2017PhDT.......321C",
+      "title": "New techniques for an optimal cosmological exploitation of galaxy surveys",
+      "dois": [],
+      "citations": 0
+    },
+    {
+      "bibcode": "2016sf2a.conf..259P",
+      "title": "WEAVE-QSO: A Massive Intergalactic Medium Survey for the William Herschel Telescope",
+      "dois": [
+        "10.48550/arXiv.1611.09388"
+      ],
+      "citations": 76
+    },
+    {
+      "bibcode": "2016MNRAS.460.3100C",
+      "title": "Subhalo abundance matching and assembly bias in the EAGLE simulation",
+      "dois": [
+        "10.1093/mnras/stw1225",
+        "10.48550/arXiv.1507.01948"
+      ],
+      "citations": 170
+    },
+    {
+      "bibcode": "2015hsa8.conf..365C",
+      "title": "Towards an ALHAMBRA quasar catalogue",
+      "dois": [],
+      "citations": 0
+    },
+    {
+      "bibcode": "2015A&A...576A..25V",
+      "title": "High redshift galaxies in the ALHAMBRA survey . I. Selection method and number counts based on redshift PDFs",
+      "dois": [
+        "10.1051/0004-6361/201425382",
+        "10.48550/arXiv.1501.05109"
+      ],
+      "citations": 11
+    }
+  ]
 }
