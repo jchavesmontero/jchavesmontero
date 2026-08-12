@@ -1,28 +1,3 @@
 # About me
 
 I am a postdoc at the Institute for High Energy Physics of Barcelona, Spain. My research revolves about a broad range of topics in Cosmology and Astrophysics, including the galaxy-halo connection, the cross-correlation of large scale structure and cosmic microwave background, photometric redshifts, and Lyman alpha forest.
-
-## Automatic ADS metrics
-
-The homepage reads publication count, citations, and h-index from `data/ads-profile.json`. A scheduled GitHub Actions workflow refreshes this snapshot from the official NASA ADS API every Monday and can also be run manually.
-
-To enable it, create an ADS Developer API token in your ADS account and save it in the GitHub repository as an Actions secret named `ADS_API_TOKEN`. Never commit the token to this repository. The workflow keeps the previous snapshot if an ADS request fails.
-
-## Deployment
-
-The `Deploy GitHub Pages` workflow publishes the static site after every push to `main`. In the repository's **Settings → Pages**, the publishing source must be set to **GitHub Actions**. The workflow can also be run manually from the repository's Actions tab.
-
-<!--
-**jchavesmontero/jchavesmontero** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->

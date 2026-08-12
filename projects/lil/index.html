@@ -1,105 +1,34 @@
 <!DOCTYPE html><html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>jchavesmontero</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-    <script src="https://unpkg.com/magic-grid/dist/magic-grid.min.js"></script>
-    <link rel="stylesheet" href="../../index.css">
-    <link rel="icon" href="https://avatars.githubusercontent.com/u/35238605?v=4" type="image/png">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  </head>
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lensing-is-low Problem · Jonás Chaves-Montero</title>
+  <meta name="description" content="Research explaining the lensing-is-low problem through realistic galaxy-halo connection models.">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" crossorigin="anonymous">
+  <link rel="stylesheet" href="../../index.css"><link rel="icon" href="https://avatars.githubusercontent.com/u/35238605?v=4" type="image/png">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+  <div id="lpanel-placeholder"></div><div id="display"><div id="nav-placeholder"></div>
+  <main id="work" class="research-page">
+    <p class="eyebrow">Galaxy–halo connection · Lensing-is-low</p>
+    <h1>The lensing-is-low problem</h1>
+    <p class="intro">Why do models fitted to massive-galaxy clustering overpredict galaxy–galaxy lensing? My work traces the discrepancy to missing galaxy-formation physics rather than a failure of ΛCDM.</p>
+    <div class="topic-tags"><span>Galaxy–galaxy lensing</span><span>SHAMe</span><span>Baryonic effects</span><span>BOSS</span></div>
 
-  <body>
-    <div id="lpanel-placeholder"></div>
+    <section class="research-overview">
+      <div><p>Standard galaxy–halo models can overpredict the lensing around massive galaxies by roughly 30 percent. Hydrodynamical simulations show that assembly bias, satellite segregation, and baryonic changes to the matter distribution all push the prediction in the same direction.</p><p>I helped show that these effects jointly explain the amplitude and scale dependence of lensing-is-low. Flexible SHAMe models can then fit clustering and lensing consistently, turning the discrepancy into a test of galaxy modelling rather than direct evidence for an anomalously low matter-clustering amplitude.</p></div>
+      <aside><span>Core question</span><strong>Which galaxy-formation effects must be modelled to interpret clustering and lensing together?</strong></aside>
+    </section>
 
-    <div id="display">
-      <div id="nav-placeholder"></div>
-
-      <div id="work">
-
-        <h1 style="font-family:verdana">The lensing-is-low problem</h1>
-        <p style="font-family:verdana;font-size:100%">          
-          It is now widely recognized that simulation-based models optimized to fit the clustering of massive galaxies overestimate their gravitational lensing on small scales, which is commonly known as the "lensing-is-low problem." One prevalent interpretation of this problem is that it is another manifestation of the tension between growth measurements from the early and late universe, known as the S8 tension.
-        </p>
-        <p style="font-family:verdana;font-size:100%"> 
-          However, in <a href="https://ui.adsabs.harvard.edu/abs/2023MNRAS.521..937C/abstract">Chaves-Montero, Angulo, and Contreras (2023)</a>, we showed that this problem reflects shortcomings of galaxy-halo connection models rather than tensions within the ΛCDM paradigm itself. Specifically, it stems from neglecting various effects related to galaxy formation, such as assembly bias, the spatial segregation of satellite galaxies compared to dark matter, and the influence of baryonic effects on the mass distribution. All these effects contribute to overestimating gravitational lensing, and when combined, they explain the amplitude and scale dependence of the lensing-is-low problem. We thus concluded that simplistic galaxy-halo connection models are inadequate for the simultaneous interpretation of clustering and lensing.
-        </p>
-        <p style="font-family:verdana;font-size:100%">          
-          Having identified the root cause of the problem, our focus shifted towards finding a solution. In <a href="https://ui.adsabs.harvard.edu/abs/2023MNRAS.520..489C/abstract">Contreras, Angulo, Chaves-Montero et al. (2023)</a>, we studied the precision of SubHalo Abundance Matching extended model (SHAMe) -- a sophisticated galaxy-halo connection model -- jointly modeling clustering and lensing. Our study demonstrated that SHAMe successfully reproduces the projected clustering, correlation function multipoles, and excess surface density of galaxies from a state-of-the-art hydrodynamical simulation. Therefore, it does not suffer from the "artificial" lensing-is-low problem.
-        </p>
-        <p style="font-family:verdana;font-size:100%"> 
-          Encouraged by these results, in <a href="https://ui.adsabs.harvard.edu/abs/2023arXiv230509637C/abstract">Contreras, Chaves-Montero, and Angulo (2023)</a>, we employed SHAMe to fit the clustering and lensing of massive galaxies from the BOSS survey. We found that SHAMe accurately reproduces the clustering and lensing of BOSS galaxies at all redshifts, confirming that this model does not suffer from the "artificial" lensing-is-low problem. On the other hand, we found that the additional flexibility of the model comes at the cost of losing constraining power. For example, we found that BOSS data is not constraining enough to discriminate between a Planck and low-S8 cosmology when analyzed using SHAMe.
-        </p>
-        <p style="font-family:verdana;font-size:100%"> 
-          Presently, we are working on modeling additional observables in SHAMe to break degeneracies between cosmological and model parameters.
-        </p>
-        <br>
-        <p style="font-family:verdana;font-size:100%"> 
-          Publications:
-        </p>
-        <ul>
-          <li style="font-family:verdana;font-size:100%">
-            Contreras S., <b>Chaves-Montero J.</b>, Angulo R. E, 2023, arxiv. doi:<a href="https://ui.adsabs.harvard.edu/abs/2023arXiv230509637C/abstract">arXiv:2305.09637</a>.
-          </li>
-          <br>
-          <li style="font-family:verdana;font-size:100%">
-            Contreras S., Angulo R. E., <b>Chaves-Montero J.</b>, White, S. D. M., and Aricò, G., 2023, MNRAS, 520, 1, 489-502. doi:<a href="https://ui.adsabs.harvard.edu/abs/2023MNRAS.520..489C/abstract">10.1093/mnras/stad122</a>.
-          </li>
-          <br>
-          <li style="font-family:verdana;font-size:100%">
-            <b>Chaves-Montero J.</b>, Angulo R. E., Contreras S., 2023, MNRAS, 521, 1, 937-951. doi:<a href="https://ui.adsabs.harvard.edu/abs/2023MNRAS.521..937C/abstract">10.1093/mnras/stad243</a>.
-          </li>
-        </ul>
-            
+    <section class="page-section compact-section">
+      <div class="section-intro"><div><p class="eyebrow">Selected work</p><h2>From discrepancy to explanation</h2></div><a class="text-link" href="../../publications/">All publications →</a></div>
+      <div class="project-publications">
+        <article><span>2023</span><h3><a href="https://doi.org/10.1093/mnras/stad243">The galaxy-formation origin of lensing-is-low</a></h3><p>Showing how assembly bias, satellite segregation, and baryonic effects combine to explain the discrepancy.</p></article>
+        <article><span>2023</span><h3><a href="https://doi.org/10.1093/mnras/stad122">Simultaneous clustering and lensing with SHAMe</a></h3><p>Validating a compact empirical model against TNG300 from quasi-linear to deeply nonlinear scales.</p></article>
+        <article><span>2023</span><h3><a href="https://doi.org/10.1093/mnras/stad2434">Consistent clustering and lensing of BOSS galaxies</a></h3><p>Fitting both observables in Planck and low-S8 cosmologies without an artificial lensing discrepancy.</p></article>
       </div>
-    </div>
-
-    
+    </section>
     <div id="foot-placeholder"></div>
-    
-    <script>
-      $.get("../../nav.html", function(data){
-          $("#nav-placeholder").replaceWith(data);
-      });
-      $.get("../../lpanel.html", function(data){
-          $("#lpanel-placeholder").replaceWith(data);
-      });
-      $.get("../../foot.html", function(data){
-          $("#foot-placeholder").replaceWith(data);
-      });
-    </script> 
-
-    <script>
-      const magicProjectsGrid = new MagicGrid({
-        container: "#work_section",
-        animate: false,
-        gutter: 30, // default gutter size
-        static: true,
-        useMin: false,
-        maxColumns: 2,
-        useTransform: true
-      });
-
-      const magicForksGrid = new MagicGrid({
-        container: "#forks_section",
-        animate: false,
-        gutter: 30, // default gutter size
-        static: true,
-        useMin: false,
-        maxColumns: 2,
-        useTransform: true
-      });
-
-      $("document").ready(() => {
-        magicProjectsGrid.listen();
-        magicForksGrid.listen();
-      });
-    </script>
-  
-  </body>
-</html>
-
+  </main></div>
+  <script>$.get("../../nav.html",d=>$("#nav-placeholder").replaceWith(d));$.get("../../lpanel.html",d=>$("#lpanel-placeholder").replaceWith(d));$.get("../../foot.html",d=>$("#foot-placeholder").replaceWith(d));</script>
+</body></html>

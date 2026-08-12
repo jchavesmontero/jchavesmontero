@@ -1,0 +1,63 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scientific AI &amp; Emulation · Jonás Chaves-Montero</title>
+  <meta name="description" content="Scientific AI research by Jonás Chaves-Montero: neural emulators, normalizing flows, differentiable models, and probabilistic machine learning for cosmology.">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" crossorigin="anonymous">
+  <link rel="stylesheet" href="../../index.css"><link rel="icon" href="https://avatars.githubusercontent.com/u/35238605?v=4" type="image/png">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+  <div id="lpanel-placeholder"></div><div id="display"><div id="nav-placeholder"></div>
+  <main id="work" class="research-page">
+    <p class="eyebrow">Cross-cutting methods</p>
+    <h1>Scientific AI &amp; emulation</h1>
+    <p class="intro ai-intro">I build fast, physically informed models that make expensive simulations usable for inference—and apply modern machine learning where it can preserve uncertainty, improve scale, or reveal structure that conventional methods cannot.</p>
+    <div class="topic-tags"><span>Neural emulators</span><span>Normalizing flows</span><span>Differentiable modelling</span><span>Probabilistic ML</span><span>Simulation-to-observation transfer</span></div>
+
+    <section class="research-overview">
+      <div><p>My approach treats machine learning as part of the scientific model, not as a black-box prediction layer. Physical parameterizations, simulation validation, uncertainty quantification, and out-of-distribution tests are central to deciding whether a model is useful for cosmology.</p><p>These methods span intergalactic-medium emulation, differentiable galaxy and halo histories, spectral modelling, photometric-redshift inference, and robust source classification. The complete publication record is grouped by methodological strand below.</p></div>
+      <aside><span>Core principle</span><strong>Accelerate the calculation without discarding the physics—or the uncertainty.</strong></aside>
+    </section>
+
+    <section class="ai-group">
+      <div class="ai-group-header"><span>01</span><div><h2>Simulation emulators &amp; cosmological inference</h2><p>Learning costly hydrodynamical predictions while retaining explicit cosmological and astrophysical parameters.</p></div></div>
+      <div class="ai-publications">
+        <article><span>2026</span><div><h3><a href="https://doi.org/10.1088/1475-7516/2026/06/040">Cosmological analysis of the DESI DR1 Lyα 1D power spectrum</a></h3><p>Hydrodynamical-simulation emulation for precision cosmological inference.</p></div></article>
+        <article><span>2026</span><div><h3><a href="https://doi.org/10.48550/arXiv.2607.27413">Lyman-α forest holography: 3D predictions from 1D measurements</a></h3><p>ForestFlow translation of DESI P1D constraints into nonlinear 3D predictions.</p></div></article>
+        <article><span>2025</span><div><h3><a href="https://doi.org/10.1051/0004-6361/202452039">ForestFlow: predicting Lyα clustering from linear to nonlinear scales</a></h3><p>Conditional normalizing flows trained on paired hydrodynamical simulations.</p></div></article>
+        <article><span>2023</span><div><h3><a href="https://doi.org/10.1093/mnras/stad2512">A neural-network emulator for the Lyα 1D flux power spectrum</a></h3><p>Sub-percent predictions across cosmology and intergalactic-medium physics.</p></div></article>
+      </div>
+    </section>
+
+    <section class="ai-group">
+      <div class="ai-group-header"><span>02</span><div><h2>Differentiable &amp; surrogate physical models</h2><p>Compact, interpretable descriptions of halo growth, star formation, spectra, and galaxy colours.</p></div></div>
+      <div class="ai-publications">
+        <article><span>2023</span><div><h3><a href="https://doi.org/10.1093/mnras/stac3118">Diffstar: a fully parametric model for galaxy assembly history</a></h3><p>Differentiable star-formation histories tied to halo growth and quenching.</p></div></article>
+        <article><span>2023</span><div><h3><a href="https://doi.org/10.1093/mnras/stad456">DSPS: Differentiable stellar population synthesis</a></h3><p>JAX-native spectra and photometry with gradients through physical parameters.</p></div></article>
+        <article><span>2021</span><div><h3><a href="https://doi.org/10.21105/astro.2105.05859">A differentiable model of dark-matter halo assembly</a></h3><p>Population-level halo growth with assembly-bias correlations in JAX.</p></div></article>
+        <article><span>2021</span><div><h3><a href="https://doi.org/10.1093/mnras/stab1831">Surrogate modelling the Baryonic Universe II</a></h3><p>Forward modelling the colours of individual galaxies and populations.</p></div></article>
+        <article><span>2020</span><div><h3><a href="https://doi.org/10.1093/mnras/staa1230">Surrogate modelling the Baryonic Universe I</a></h3><p>Using Galaxpy and dimensional reduction to isolate the colour of star formation.</p></div></article>
+      </div>
+    </section>
+
+    <section class="ai-group">
+      <div class="ai-group-header"><span>03</span><div><h2>Machine learning for survey data</h2><p>Probabilistic inference and domain adaptation for photometric surveys.</p></div></div>
+      <div class="ai-publications">
+        <article><span>2026</span><div><h3><a href="https://doi.org/10.48550/arXiv.2602.13902">J-PAS: semi-supervised sim-to-obs transfer</a></h3><p>Domain adaptation for robust star–galaxy–quasar classification.</p></div></article>
+        <article><span>2022</span><div><h3><a href="https://doi.org/10.1093/mnras/stac1790">SYTH-Z: machine-learning synthetic spectra for probabilistic redshifts</a></h3><p>Mixture-density networks trained on physically motivated synthetic data.</p></div></article>
+        <article><span>2021</span><div><h3>Scalable statistical inference of photometric redshift via data subsampling</h3><p>Graph-guided subsampling and Gaussian-process ensembles with predictive uncertainty.</p></div></article>
+      </div>
+    </section>
+
+    <section class="ai-group">
+      <div class="ai-group-header"><span>04</span><div><h2>Perspectives on Scientific AI</h2><p>Reviews and roadmaps connecting machine-learning methodology to trustworthy computational cosmology.</p></div></div>
+      <div class="ai-publications">
+        <article><span>2026</span><div><h3><a href="https://arxiv.org/abs/2605.22489v1">Machine Learning Techniques for Astrophysics and Cosmology: Lyα forest</a></h3><p>A review spanning emulation, simulation-based inference, and field-level reconstruction.</p></div></article>
+        <article><span>2020</span><div><h3>Scientific AI Approaches in Computational Cosmology</h3><p>A roadmap for emulation, uncertainty quantification, physical symmetries, and validation.</p></div></article>
+      </div>
+    </section>
+    <div id="foot-placeholder"></div>
+  </main></div>
+  <script>$.get("../../nav.html",d=>$("#nav-placeholder").replaceWith(d));$.get("../../lpanel.html",d=>$("#lpanel-placeholder").replaceWith(d));$.get("../../foot.html",d=>$("#foot-placeholder").replaceWith(d));</script>
+</body></html>

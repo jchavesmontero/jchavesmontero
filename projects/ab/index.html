@@ -1,93 +1,35 @@
 <!DOCTYPE html><html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>jchavesmontero</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-    <script src="https://unpkg.com/magic-grid/dist/magic-grid.min.js"></script>
-    <link rel="stylesheet" href="../../index.css">
-    <link rel="icon" href="https://avatars.githubusercontent.com/u/35238605?v=4" type="image/png">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  </head>
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Assembly Bias · Jonás Chaves-Montero</title>
+  <meta name="description" content="Research on halo and galaxy assembly bias, mass-accretion histories, and galaxy clustering.">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" crossorigin="anonymous">
+  <link rel="stylesheet" href="../../index.css"><link rel="icon" href="https://avatars.githubusercontent.com/u/35238605?v=4" type="image/png">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+  <div id="lpanel-placeholder"></div><div id="display"><div id="nav-placeholder"></div>
+  <main id="work" class="research-page">
+    <p class="eyebrow">Galaxy–halo connection · Assembly bias</p>
+    <h1>Assembly bias</h1>
+    <p class="intro">Dark-matter halos remember how they formed. I study how that history changes the galaxies they host and the clustering signals used for cosmology.</p>
+    <div class="topic-tags"><span>Halo growth</span><span>Galaxy selection</span><span>Hydrodynamical simulations</span><span>Clustering</span></div>
 
-  <body>
-    <div id="lpanel-placeholder"></div>
+    <section class="research-overview">
+      <div><p>Halo mass alone does not determine where halos live: concentration, formation time, spin, and accretion history also correlate with environment. Galaxy formation inherits and reshapes these correlations, creating galaxy assembly bias.</p><p>My work measures this signal across galaxy samples and redshifts, separates halo assembly bias from occupancy variation, and tests which halo properties can reproduce it. This is essential for robustly interpreting the small-scale clustering measured by DESI and other precision surveys.</p></div>
+      <aside><span>Core question</span><strong>How does the formation history of halos propagate into observed galaxy clustering?</strong></aside>
+    </section>
 
-    <div id="display">
-      <div id="nav-placeholder"></div>
-
-      <div id="work">
-
-        <h1 style="font-family:verdana">Assembly bias</h1>
-        <p style="font-family:verdana;font-size:100%"> 
-          A long-standing prediction of structure formation theories is that the clustering of dark matter halos only depends upon their mass. However, cosmological simulations show that the clustering of halos depends upon their concentration, spin, formation time, etc. This effect is commonly known as halo assembly bias and it has been shown to also affect galaxy clustering. I am working on studying the origin of this effect and its influence on the large-scale distribution of galaxies. 
-        </p>
-        <p style="font-family:verdana;font-size:100%"> 
-          Publications:
-        </p>
-        <ul>
-          <li style="font-family:verdana;font-size:100%">
-            Montero-Dorta A. D., <b>Chaves-Montero J.</b>, Artale M. C., Favole G., 2021. doi: <a href="https://ui.adsabs.harvard.edu/abs/2021arXiv210505274M/abstract">10.1093/mnras/stab2556</a>.<br>
-            <font color='orange'>Summary:</font> strong connection between the specifict mass accretion history of dark matter halos and the properties of the galaxies that these harbor. The galaxy assembly bias signal of the progenitors of galaxies selected according to this property increases with redshift up to at least z=4.
-          </li>
-          <li style="font-family:verdana;font-size:100%">
-            Contreras S., <b>Chaves-Montero J.</b>, Zennaro M., Angulo R. E., 2021. doi:<a href="https://ui.adsabs.harvard.edu/abs/2021MNRAS.507.3412C/abstract">10.1093/mnras/stab2367</a>.<br>
-            <font color='orange'>Summary:</font> the strength of halo assembly bias does not depend on cosmology, and galaxy assembly bias depends much strongly on galaxy formation physics than cosmology.
-          </li>
-          <li style="font-family:verdana;font-size:100%">
-            <b>Chaves-Montero J.</b>, Angulo R. E., Schaye J., Schaller M., Crain R. A., Furlong M., Theuns T., 2016, MNRAS, 460, 3100. doi:<a href="https://ui.adsabs.harvard.edu/abs/2016MNRAS.460.3100C/abstract">10.1093/mnras/stw1225</a>.<br>
-            <font color='orange'>Summary:</font> galaxy assembly bias is detected in a cosmological hydrodynamical simulation for the first time. The precision of different models capturing this effect depends on the particularities of the galaxy-halo connection.
-          </li>
-        </ul>
-            
+    <section class="page-section compact-section">
+      <div class="section-intro"><div><p class="eyebrow">Selected work</p><h2>Beyond halo mass</h2></div><a class="text-link" href="../../publications/">All publications →</a></div>
+      <div class="project-publications">
+        <article><span>2025</span><h3><a href="https://doi.org/10.48550/arXiv.2504.06770">Measuring and predicting galaxy assembly bias</a></h3><p>Mapping how the signal varies with selection, number density, and redshift across IllustrisTNG galaxy samples.</p></article>
+        <article><span>2021</span><h3><a href="https://doi.org/10.1093/mnras/stab2556">Halo accretion history and galaxy properties</a></h3><p>Connecting specific mass-accretion histories to star formation, gas loss, quenching, and clustering.</p></article>
+        <article><span>2021</span><h3><a href="https://doi.org/10.1093/mnras/stab2367">Cosmological dependence of assembly bias</a></h3><p>Showing that galaxy-formation modelling affects galaxy assembly bias more strongly than cosmology.</p></article>
+        <article><span>2016</span><h3><a href="https://doi.org/10.1093/mnras/stw1225">Assembly bias in the EAGLE simulation</a></h3><p>Testing how subhalo abundance matching captures galaxy clustering and its assembly-bias contribution.</p></article>
       </div>
-    </div>
-
-    
+    </section>
     <div id="foot-placeholder"></div>
-    
-    <script>
-      $.get("../../nav.html", function(data){
-          $("#nav-placeholder").replaceWith(data);
-      });
-      $.get("../../lpanel.html", function(data){
-          $("#lpanel-placeholder").replaceWith(data);
-      });
-      $.get("../../foot.html", function(data){
-          $("#foot-placeholder").replaceWith(data);
-      });
-    </script> 
-
-    <script>
-      const magicProjectsGrid = new MagicGrid({
-        container: "#work_section",
-        animate: false,
-        gutter: 30, // default gutter size
-        static: true,
-        useMin: false,
-        maxColumns: 2,
-        useTransform: true
-      });
-
-      const magicForksGrid = new MagicGrid({
-        container: "#forks_section",
-        animate: false,
-        gutter: 30, // default gutter size
-        static: true,
-        useMin: false,
-        maxColumns: 2,
-        useTransform: true
-      });
-
-      $("document").ready(() => {
-        magicProjectsGrid.listen();
-        magicForksGrid.listen();
-      });
-    </script>
-  
-  </body>
-</html>
-
+  </main></div>
+  <script>$.get("../../nav.html",d=>$("#nav-placeholder").replaceWith(d));$.get("../../lpanel.html",d=>$("#lpanel-placeholder").replaceWith(d));$.get("../../foot.html",d=>$("#foot-placeholder").replaceWith(d));</script>
+</body></html>
