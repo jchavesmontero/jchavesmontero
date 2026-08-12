@@ -1,9 +1,9 @@
 {
-  "publication_count": 85,
-  "citation_count": 5800,
-  "h_index": 28,
-  "updated": "2025-12-04",
-  "estimated": true,
+  "publication_count": 96,
+  "citation_count": 8551,
+  "h_index": 30,
+  "updated": "2026-08-12",
+  "estimated": false,
   "source": "NASA/ADS",
   "profile_url": "https://ui.adsabs.harvard.edu/search/fq=%7B!type%3Daqp%20v%3D%24fq_database%7D&fq_database=(database%3Aastronomy%20OR%20database%3Aphysics)&q=%20author%3A%22chaves-montero%2C%20j.%22&sort=date%20desc%2C%20bibcode%20desc/metrics"
 }
