@@ -1,8 +1,8 @@
 {
   "publication_count": 98,
-  "citation_count": 8752,
-  "h_index": 30,
-  "updated": "2026-10-01",
+  "citation_count": 10401,
+  "h_index": 33,
+  "updated": "2026-11-01",
   "estimated": false,
   "source": "NASA/ADS",
   "profile_url": "https://ui.adsabs.harvard.edu/search/fq=%7B!type%3Daqp%20v%3D%24fq_database%7D&fq_database=(database%3Aastronomy%20OR%20database%3Aphysics)&q=%20author%3A%22chaves-montero%2C%20j.%22&sort=date%20desc%2C%20bibcode%20desc/metrics",
@@ -39,7 +39,7 @@
         "10.1051/0004-6361/202660526",
         "10.48550/arXiv.2604.19449"
       ],
-      "citations": 2
+      "citations": 4
     },
     {
       "bibcode": "2026A&A...712A..90E",
@@ -55,7 +55,7 @@
       "dois": [
         "10.48550/arXiv.2607.27413"
       ],
-      "citations": 0
+      "citations": 2
     },
     {
       "bibcode": "2026arXiv260727412R",
@@ -63,7 +63,7 @@
       "dois": [
         "10.48550/arXiv.2607.27412"
       ],
-      "citations": 0
+      "citations": 4
     },
     {
       "bibcode": "2026arXiv260727411H",
@@ -71,7 +71,7 @@
       "dois": [
         "10.48550/arXiv.2607.27411"
       ],
-      "citations": 0
+      "citations": 3
     },
     {
       "bibcode": "2026arXiv260727410D",
@@ -79,7 +79,7 @@
       "dois": [
         "10.48550/arXiv.2607.27410"
       ],
-      "citations": 0
+      "citations": 11
     },
     {
       "bibcode": "2026JCAP...06..040C",
@@ -88,7 +88,7 @@
         "10.1088/1475-7516/2026/06/040",
         "10.48550/arXiv.2601.21432"
       ],
-      "citations": 10
+      "citations": 23
     },
     {
       "bibcode": "2026arXiv260522489C",
@@ -96,7 +96,7 @@
       "dois": [
         "10.48550/arXiv.2605.22489"
       ],
-      "citations": 0
+      "citations": 1
     },
     {
       "bibcode": "2026AJ....171..285D",
@@ -105,7 +105,7 @@
         "10.3847/1538-3881/ae4c43",
         "10.48550/arXiv.2503.14745"
       ],
-      "citations": 537
+      "citations": 715
     },
     {
       "bibcode": "2026arXiv260414802E",
@@ -113,7 +113,7 @@
       "dois": [
         "10.48550/arXiv.2604.14802"
       ],
-      "citations": 0
+      "citations": 1
     },
     {
       "bibcode": "2026JCAP...02E..02A",
@@ -121,7 +121,7 @@
       "dois": [
         "10.1088/1475-7516/2026/02/E02"
       ],
-      "citations": 1
+      "citations": 2
     },
     {
       "bibcode": "2026A&A...706A.377G",
@@ -130,7 +130,7 @@
         "10.1051/0004-6361/202555093",
         "10.48550/arXiv.2504.06770"
       ],
-      "citations": 2
+      "citations": 3
     },
     {
       "bibcode": "2026PhRvD.113b3520C",
@@ -139,7 +139,7 @@
         "10.1103/fvgh-kswf",
         "10.48550/arXiv.2503.14741"
       ],
-      "citations": 24
+      "citations": 34
     },
     {
       "bibcode": "2025JCAP...11..079R",
@@ -148,7 +148,7 @@
         "10.1088/1475-7516/2025/11/079",
         "10.48550/arXiv.2505.09493"
       ],
-      "citations": 13
+      "citations": 25
     },
     {
       "bibcode": "2025PhRvD.112h3515A",
@@ -157,7 +157,7 @@
         "10.1103/tr6y-kpc6",
         "10.48550/arXiv.2503.14738"
       ],
-      "citations": 1384
+      "citations": 1771
     },
     {
       "bibcode": "2025PhRvD.112h3514A",
@@ -166,7 +166,7 @@
         "10.1103/2wwn-xjm5",
         "10.48550/arXiv.2503.14739"
       ],
-      "citations": 258
+      "citations": 337
     },
     {
       "bibcode": "2025PhRvD.112h3513E",
@@ -175,7 +175,7 @@
         "10.1103/w9pk-xsk7",
         "10.48550/arXiv.2503.14744"
       ],
-      "citations": 156
+      "citations": 203
     },
     {
       "bibcode": "2025PhRvD.112h3512A",
@@ -184,7 +184,7 @@
         "10.1103/kdys-w8vl",
         "10.48550/arXiv.2503.14742"
       ],
-      "citations": 64
+      "citations": 79
     },
     {
       "bibcode": "2025PhRvD.112h3511L",
@@ -193,7 +193,7 @@
         "10.1103/w4c6-1r5j",
         "10.48550/arXiv.2503.14743"
       ],
-      "citations": 407
+      "citations": 522
     },
     {
       "bibcode": "2025PhRvD.112h3510B",
@@ -202,7 +202,7 @@
         "10.1103/wxyv-46kb",
         "10.48550/arXiv.2503.14740"
       ],
-      "citations": 24
+      "citations": 30
     },
     {
       "bibcode": "2025JCAP...10..004K",
@@ -211,7 +211,7 @@
         "10.1088/1475-7516/2025/10/004",
         "10.48550/arXiv.2505.07974"
       ],
-      "citations": 13
+      "citations": 26
     },
     {
       "bibcode": "2025A&A...702A.155D",
@@ -220,7 +220,7 @@
         "10.1051/0004-6361/202555551",
         "10.48550/arXiv.2505.10416"
       ],
-      "citations": 18
+      "citations": 24
     },
     {
       "bibcode": "2025arXiv250915308C",
@@ -228,7 +228,7 @@
       "dois": [
         "10.48550/arXiv.2509.15308"
       ],
-      "citations": 20
+      "citations": 30
     },
     {
       "bibcode": "2025JCAP...09..008A",
@@ -237,7 +237,7 @@
         "10.1088/1475-7516/2025/09/008",
         "10.48550/arXiv.2411.12021"
       ],
-      "citations": 179
+      "citations": 227
     },
     {
       "bibcode": "2025OJAp....8E..94H",
@@ -264,7 +264,7 @@
         "10.1088/1475-7516/2025/07/028",
         "10.48550/arXiv.2411.12022"
       ],
-      "citations": 336
+      "citations": 413
     },
     {
       "bibcode": "2025JCAP...07..017A",
@@ -273,7 +273,7 @@
         "10.1088/1475-7516/2025/07/017",
         "10.48550/arXiv.2411.12020"
       ],
-      "citations": 129
+      "citations": 156
     },
     {
       "bibcode": "2025hsa..conf....7C",
@@ -288,7 +288,7 @@
         "10.1051/0004-6361/202453086",
         "10.48550/arXiv.2411.11830"
       ],
-      "citations": 15
+      "citations": 16
     },
     {
       "bibcode": "2025JCAP...04..012A",
@@ -297,7 +297,7 @@
         "10.1088/1475-7516/2025/04/012",
         "10.48550/arXiv.2404.03000"
       ],
-      "citations": 548
+      "citations": 597
     },
     {
       "bibcode": "2025JCAP...02..021A",
@@ -306,7 +306,7 @@
         "10.1088/1475-7516/2025/02/021",
         "10.48550/arXiv.2404.03002"
       ],
-      "citations": 1785
+      "citations": 2058
     },
     {
       "bibcode": "2025A&A...694A.187C",
@@ -315,7 +315,7 @@
         "10.1051/0004-6361/202452039",
         "10.48550/arXiv.2409.05682"
       ],
-      "citations": 4
+      "citations": 10
     },
     {
       "bibcode": "2025JCAP...01..141H",
@@ -324,7 +324,7 @@
         "10.1088/1475-7516/2025/01/141",
         "10.48550/arXiv.2401.00303"
       ],
-      "citations": 30
+      "citations": 36
     },
     {
       "bibcode": "2025JCAP...01..130B",
@@ -333,7 +333,7 @@
         "10.1088/1475-7516/2025/01/130",
         "10.48550/arXiv.2402.18009"
       ],
-      "citations": 23
+      "citations": 29
     },
     {
       "bibcode": "2025JCAP...01..124A",
@@ -342,7 +342,7 @@
         "10.1088/1475-7516/2025/01/124",
         "10.48550/arXiv.2404.03001"
       ],
-      "citations": 382
+      "citations": 421
     },
     {
       "bibcode": "2024ascl.soft12022C",
@@ -366,7 +366,7 @@
         "10.3847/1538-3881/ad3217",
         "10.48550/arXiv.2306.06308"
       ],
-      "citations": 569
+      "citations": 625
     },
     {
       "bibcode": "2024A&A...687A.285A",
@@ -375,7 +375,7 @@
         "10.1051/0004-6361/202449287",
         "10.48550/arXiv.2405.06010"
       ],
-      "citations": 8
+      "citations": 9
     },
     {
       "bibcode": "2024A&A...684A..61H",
@@ -393,7 +393,7 @@
         "10.1093/mnras/stad3781",
         "10.48550/arXiv.2306.06312"
       ],
-      "citations": 48
+      "citations": 60
     },
     {
       "bibcode": "2024MNRAS.528.3941K",
@@ -402,7 +402,7 @@
         "10.1093/mnras/stae171",
         "10.48550/arXiv.2306.06316"
       ],
-      "citations": 54
+      "citations": 62
     },
     {
       "bibcode": "2024A&A...683A.120P",
@@ -420,7 +420,7 @@
         "10.3847/1538-3881/ad0b08",
         "10.48550/arXiv.2306.06307"
       ],
-      "citations": 302
+      "citations": 340
     },
     {
       "bibcode": "2024MNRAS.527.5868M",
@@ -438,7 +438,7 @@
         "10.1093/mnras/stad3008",
         "10.48550/arXiv.2306.06311"
       ],
-      "citations": 55
+      "citations": 62
     },
     {
       "bibcode": "2023MNRAS.525.3499C",
@@ -447,7 +447,7 @@
         "10.1093/mnras/stad2512",
         "10.48550/arXiv.2305.19064"
       ],
-      "citations": 23
+      "citations": 28
     },
     {
       "bibcode": "2023JCAP...11..045G",
@@ -456,7 +456,7 @@
         "10.1088/1475-7516/2023/11/045",
         "10.48550/arXiv.2308.10950"
       ],
-      "citations": 30
+      "citations": 36
     },
     {
       "bibcode": "2023MNRAS.525.3149C",
@@ -465,7 +465,7 @@
         "10.1093/mnras/stad2434",
         "10.48550/arXiv.2305.09637"
       ],
-      "citations": 26
+      "citations": 27
     },
     {
       "bibcode": "2023A&A...678A.144P",
@@ -474,7 +474,7 @@
         "10.1051/0004-6361/202347488",
         "10.48550/arXiv.2309.00461"
       ],
-      "citations": 4
+      "citations": 5
     },
     {
       "bibcode": "2023mgm..conf.2345C",
@@ -497,7 +497,7 @@
         "10.1093/mnras/stad456",
         "10.48550/arXiv.2112.06830"
       ],
-      "citations": 39
+      "citations": 50
     },
     {
       "bibcode": "2023MNRAS.521..937C",
@@ -506,7 +506,7 @@
         "10.1093/mnras/stad243",
         "10.48550/arXiv.2211.01744"
       ],
-      "citations": 37
+      "citations": 41
     },
     {
       "bibcode": "2023A&A...673A.103M",
@@ -515,7 +515,7 @@
         "10.1051/0004-6361/202245750",
         "10.48550/arXiv.2303.12684"
       ],
-      "citations": 13
+      "citations": 14
     },
     {
       "bibcode": "2023MNRAS.520.3494R",
@@ -557,7 +557,7 @@
         "10.1093/mnras/stad122",
         "10.48550/arXiv.2211.11745"
       ],
-      "citations": 23
+      "citations": 24
     },
     {
       "bibcode": "2023A&A...671A..71H",
@@ -566,7 +566,7 @@
         "10.1051/0004-6361/202244759",
         "10.48550/arXiv.2301.09623"
       ],
-      "citations": 13
+      "citations": 15
     },
     {
       "bibcode": "2023ascl.soft02025H",
@@ -593,7 +593,7 @@
         "10.1093/mnras/stac3118",
         "10.48550/arXiv.2205.04273"
       ],
-      "citations": 41
+      "citations": 47
     },
     {
       "bibcode": "2022MNRAS.517.2000L",
@@ -611,7 +611,7 @@
         "10.1051/0004-6361/202243881",
         "10.48550/arXiv.2209.01040"
       ],
-      "citations": 20
+      "citations": 22
     },
     {
       "bibcode": "2022MNRAS.515.1927R",
@@ -637,7 +637,7 @@
       "dois": [
         "10.1051/0004-6361/202243931"
       ],
-      "citations": 19
+      "citations": 21
     },
     {
       "bibcode": "2022eas..conf.2308C",
@@ -667,7 +667,7 @@
         "10.1051/0004-6361/202142567",
         "10.48550/arXiv.2111.01180"
       ],
-      "citations": 10
+      "citations": 11
     },
     {
       "bibcode": "2021MNRAS.508..940M",
@@ -676,7 +676,7 @@
         "10.1093/mnras/stab2556",
         "10.48550/arXiv.2105.05274"
       ],
-      "citations": 47
+      "citations": 48
     },
     {
       "bibcode": "2021MNRAS.507.3412C",
@@ -685,7 +685,7 @@
         "10.1093/mnras/stab2367",
         "10.48550/arXiv.2105.05854"
       ],
-      "citations": 31
+      "citations": 33
     },
     {
       "bibcode": "2021A&A...654A.101H",
@@ -694,7 +694,7 @@
         "10.1051/0004-6361/202141236",
         "10.48550/arXiv.2108.03271"
       ],
-      "citations": 42
+      "citations": 46
     },
     {
       "bibcode": "2021MNRAS.506.2373C",
@@ -712,7 +712,7 @@
         "10.1051/0004-6361/202038841",
         "10.48550/arXiv.2007.01910"
       ],
-      "citations": 148
+      "citations": 155
     },
     {
       "bibcode": "2021OJAp....4E...7H",
@@ -721,7 +721,7 @@
         "10.21105/astro.2105.05859",
         "10.48550/arXiv.2105.05859"
       ],
-      "citations": 40
+      "citations": 45
     },
     {
       "bibcode": "2021MNRAS.503L..62H",
@@ -739,7 +739,7 @@
         "10.1093/mnrasl/slaa172",
         "10.48550/arXiv.1911.12056"
       ],
-      "citations": 17
+      "citations": 19
     },
     {
       "bibcode": "2021MNRAS.503.1798C",
@@ -748,7 +748,7 @@
         "10.1093/mnras/staa3782",
         "10.48550/arXiv.1911.10690"
       ],
-      "citations": 33
+      "citations": 36
     },
     {
       "bibcode": "2020MNRAS.495.2088C",
@@ -766,7 +766,7 @@
         "10.1093/mnras/sty924",
         "10.48550/arXiv.1610.09688"
       ],
-      "citations": 34
+      "citations": 35
     },
     {
       "bibcode": "2018A&A...614A.129V",
@@ -783,7 +783,7 @@
       "dois": [
         "10.48550/arXiv.1805.05489"
       ],
-      "citations": 157
+      "citations": 167
     },
     {
       "bibcode": "2017MNRAS.472.2085C",
@@ -812,7 +812,7 @@
       "dois": [
         "10.48550/arXiv.1611.09388"
       ],
-      "citations": 76
+      "citations": 80
     },
     {
       "bibcode": "2016MNRAS.460.3100C",
@@ -821,7 +821,7 @@
         "10.1093/mnras/stw1225",
         "10.48550/arXiv.1507.01948"
       ],
-      "citations": 172
+      "citations": 175
     },
     {
       "bibcode": "2015hsa8.conf..365C",
